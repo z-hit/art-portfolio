@@ -2,12 +2,12 @@ import React from "react";
 //import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Page404 from "../page404/Page404";
-import Contact from "../contact/Contact";
-import Home from "../home/Home";
-import Gallery from "../gallery/Gallery";
-import About from "../about/About";
-import Layout from "../layout/Layout";
+import Page404 from "../../pages/page404/Page404";
+import Contact from "../../pages/contact/Contact";
+import Home from "../../pages/home/Home";
+import Gallery from "../../pages/gallery/Gallery";
+import About from "../../pages/about/About";
+import Layout from "../Layout";
 
 function App() {
   return (
