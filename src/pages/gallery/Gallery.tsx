@@ -5,7 +5,6 @@ const Gallery = () => {
   return (
     <>
       <MenuGallery />
-      <h1>Gallery</h1>
       <Outlet />
     </>
   );

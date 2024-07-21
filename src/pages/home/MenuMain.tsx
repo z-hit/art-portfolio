@@ -1,4 +1,4 @@
-import { Menu, TMenuLink } from "../Menu";
+import { MenuUI, TMenuLink } from "../../components/ui/menuUI/MenuUI";
 
 const menuMainLinks: TMenuLink[] = [
   { name: "About", url: "/about" },
@@ -6,6 +6,6 @@ const menuMainLinks: TMenuLink[] = [
   { name: "Contact", url: "/contact" },
 ];
 
-const MenuMain = () => Menu(menuMainLinks);
+const MenuMain = () => MenuUI(menuMainLinks);
 
 export default MenuMain;

@@ -1,5 +1,5 @@
-import MenuMain from "../../components/ui/Menu";
-import Logo from "../../components/Logo";
+import MenuMain from "../../pages/home/MenuMain";
+import Logo from "../ui/logoUI/Logo";
 
 const Header = () => {
   return (

@@ -1,4 +1,4 @@
-import { Menu, TMenuLink } from "../../components/Menu";
+import { MenuUI, TMenuLink } from "../../components/ui/menuUI/MenuUI";
 
 const MenuGalleryLinks: TMenuLink[] = [
   { name: "2017", url: "/gallery/2017" },
@@ -10,6 +10,6 @@ const MenuGalleryLinks: TMenuLink[] = [
   { name: "2024", url: "/gallery/2024" },
 ];
 
-const MenuGallery = () => Menu(MenuGalleryLinks);
+const MenuGallery = () => MenuUI(MenuGalleryLinks);
 
 export default MenuGallery;
