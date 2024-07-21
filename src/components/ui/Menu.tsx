@@ -1,26 +1,11 @@
-import { Link } from "react-router-dom";
+import { Menu, TMenuLink } from "../Menu";
 
-const MenuMain = () => {
-  return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/gallery">Gallery</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
-    </>
-  );
-};
+const menuMainLinks: TMenuLink[] = [
+  { name: "About", url: "/about" },
+  { name: "Gallery", url: "/gallery" },
+  { name: "Contact", url: "/contact" },
+];
+
+const MenuMain = () => Menu(menuMainLinks);
 
 export default MenuMain;

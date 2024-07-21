@@ -1,1 +1,1 @@
-export const useFatch = {};
+export const useFetch = {};
