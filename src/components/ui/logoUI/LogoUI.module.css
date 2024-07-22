@@ -1,7 +1,9 @@
 .text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 27px;
   color: black;
   text-transform: uppercase;
   font-weight: bold;
+  margin-block: 30px;
+  text-decoration: none;
 }

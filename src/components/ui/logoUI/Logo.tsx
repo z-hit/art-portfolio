@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import styles from "./LogoUI.module.css";
 
 const Logo = () => {
-  return <p className={styles.text}>Zhenya Hitrova</p>;
+  return <Link to={'/'} className={styles.text}>Zhenya Hitrova</Link>;
 };
 
 export default Logo;

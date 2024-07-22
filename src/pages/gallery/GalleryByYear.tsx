@@ -1,7 +1,12 @@
 import { useParams } from "react-router-dom";
+import styles from "./Gallery.module.css";
 
 export const GalleryByYear = () => {
   const { year } = useParams();
 
-  return <h2>Year: {year}</h2>;
+  return (
+    <div className={styles.gallery}>
+      <h2>Galley by year: {year} </h2>
+    </div>
+  );
 };
