@@ -20,7 +20,11 @@
   text-transform: uppercase;
 }
 
+.link:hover {
+  color: black;
+}
+
 .link_active {
   color: black;
-  text-decoration: underline;
+  font-weight: bold;
 }

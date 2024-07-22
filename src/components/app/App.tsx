@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Page404 from "../../pages/page404/Page404";
 import Contact from "../../pages/contact/Contact";
 import Home from "../../pages/home/Home";
@@ -18,10 +18,12 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/gallery" element={<Gallery />}>
+            <Route index element={<Navigate to="/gallery/2024" replace />} />
             <Route path="/gallery/:year" element={<GalleryByYear />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />}>
+            <Route index element={<Navigate to="/about/bio" replace />} />
             <Route path="/about/bio" element={<Bio />} />
             <Route path="/about/cv" element={<Cv />} />
             <Route path="/about/qa" element={<Qa />} />
