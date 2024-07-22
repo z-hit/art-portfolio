@@ -19,3 +19,8 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.link_active {
+  color: black;
+  text-decoration: underline;
+}
