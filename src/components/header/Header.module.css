@@ -3,4 +3,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-block-end: 2px solid hsl(0, 0%, 85%);
 }

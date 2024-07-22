@@ -21,10 +21,10 @@
 }
 
 .link:hover {
-  color: black;
+  color: hsl(0, 0%, 20%);
 }
 
 .link_active {
-  color: black;
+  color: hsl(0, 0%, 20%);
   font-weight: bold;
 }
