@@ -13,7 +13,7 @@ export const MenuUI = (links: TMenuLink[]) => {
     <nav className={styles.nav_bar}>
       <ul className={styles.link_list}>
         {links.map((link) => (
-          <li>
+          <li key={nanoid()}>
             <NavLink
               className={({ isActive }) =>
                 clsx(styles.link, isActive && styles.link_active)
