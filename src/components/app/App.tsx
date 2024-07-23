@@ -32,8 +32,9 @@ function App() {
                 element={<GalleryProject />}
               />
             </Route>
-            <Route path="/gallery/2018" element={<Gallery2018 />} />
-            <Route path="/gallery/2017" element={<Gallery2017 />}>
+
+            <Route path="/gallery/:year" element={<GalleryProject />} />
+            <Route path="/gallery/2024" element={<Year2024 />}>
               <Route
                 index
                 element={<Navigate to="/gallery/2017/catasian" replace />}
