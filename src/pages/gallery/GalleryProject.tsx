@@ -4,8 +4,8 @@ export const GalleryProject = () => {
   const { project } = useParams();
 
   return (
-    <>
-      <p>Gallery Project NAME: {project}</p>
+    <>{project ? <p>Gallery Project NAME: {project}</p> : <p></p>}
+      
     </>
   );
 };

@@ -10,7 +10,7 @@ const year2024Links: TMenuLink[] = [
 
 const MenuProjects = () => MenuUI(year2024Links);
 
-const Year2024 = () => {
+const Gallery2024 = () => {
   return (
     <>
       <MenuProjects />
@@ -19,4 +19,4 @@ const Year2024 = () => {
   );
 };
 
-export default Year2024;
+export default Gallery2024;
