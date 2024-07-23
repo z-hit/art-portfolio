@@ -12,7 +12,6 @@ import styles from "./App.module.css";
 import { GalleryProject } from "../../pages/gallery/GalleryProject";
 import Gallery2017 from "../../pages/gallery/gallery-by-year/Gallery2017";
 import Gallery2024 from "../../pages/gallery/gallery-by-year/Gallery2024";
-import Gallery2018 from "../../pages/gallery/gallery-by-year/Gallery2018";
 
 function App() {
   return (
@@ -22,6 +21,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/gallery" element={<Gallery />}>
             <Route index element={<Navigate to="/gallery/2024" replace />} />
+            <Route path="/gallery/:year" element={<GalleryProject />} />
             <Route path="/gallery/2024" element={<Gallery2024 />}>
               <Route
                 index
@@ -32,7 +32,6 @@ function App() {
                 element={<GalleryProject />}
               />
             </Route>
-            <Route path="/gallery/2018" element={<Gallery2018 />} />
             <Route path="/gallery/2017" element={<Gallery2017 />}>
               <Route
                 index

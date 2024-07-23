@@ -2,10 +2,14 @@ import { useParams } from "react-router-dom";
 
 export const GalleryProject = () => {
   const { project } = useParams();
+  const { year } = useParams();
 
-  return (
-    <>{project ? <p>Gallery Project NAME: {project}</p> : <p></p>}
-      
-    </>
-  );
+  if (project) {
+    return <p>Project NAME: {project}</p>;
+  }
+  if (year) {
+    return <p>Project YEAR: {year}</p>;
+  }
+
+  return <p>DOESN't work</p>;
 };
