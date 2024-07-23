@@ -21,8 +21,10 @@ export const GalleryProject = () => {
   }
 
   return (
+
     <>
       <p>Doesn't work</p>
+
     </>
   );
 };

@@ -9,7 +9,7 @@ const year2017Links: TMenuLink[] = [
 
 const MenuProjects = () => MenuUI(year2017Links);
 
-const Year2017 = () => {
+const Gallery2017 = () => {
   return (
     <>
       <MenuProjects />
@@ -18,4 +18,4 @@ const Year2017 = () => {
   );
 };
 
-export default Year2017;
+export default Gallery2017;
