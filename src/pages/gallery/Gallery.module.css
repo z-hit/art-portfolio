@@ -1,6 +1,6 @@
 .gallery {
   background-color: rgb(245, 238, 238);
-  width: 80%;
-  height: 700px;
+  width: 100%;
+  height: auto;
   margin-block: 50px;
 }
