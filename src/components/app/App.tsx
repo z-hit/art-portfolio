@@ -31,6 +31,7 @@ function App() {
                 element={<GalleryProject />}
               />
             </Route>
+            <Route path="/gallery/:year" element={<GalleryProject />} />
             <Route path="/gallery/2024" element={<Year2024 />}>
               <Route
                 index

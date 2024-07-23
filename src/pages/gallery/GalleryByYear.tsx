@@ -1,11 +1,9 @@
-import { Outlet } from "react-router-dom";
-import { MenuProjects } from "./MenuProjects";
+import { GalleryProject } from "./GalleryProject";
 
 const GalleryByYear = () => {
   return (
     <>
-      <MenuProjects />
-      <Outlet />
+      <GalleryProject />
     </>
   );
 };
