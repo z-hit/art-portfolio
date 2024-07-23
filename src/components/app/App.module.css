@@ -5,4 +5,6 @@
   justify-content: center;
   margin: auto;
   width: 85vw;
+  color: hsl(0, 0%, 60%);
+  font-family: Arial, Helvetica, sans-serif;
 }
