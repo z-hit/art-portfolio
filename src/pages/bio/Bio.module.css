@@ -5,7 +5,6 @@
   align-items: center;
   width: 100%;
   margin-block: 50px;
-  gap: 50px;
 }
 
 .text_box {
@@ -16,14 +15,15 @@
   width: auto;
   height: auto;
   gap: 30px;
+  width: 65%;
 }
 
 .text {
-  font-size: 24px;
+  font-size: 25px;
   text-align: justify;
 }
 
 .image {
-  width: 50%;
+  width: 30%;
   height: auto;
 }
