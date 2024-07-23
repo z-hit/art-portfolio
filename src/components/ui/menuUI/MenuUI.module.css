@@ -1,7 +1,7 @@
 .nav_bar {
   display: flex;
   justify-content: center;
-  margin-block: 15px;
+  padding-block: 15px;
 }
 
 .link_list {
