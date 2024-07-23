@@ -2,16 +2,16 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Page404 from "../../pages/page404/Page404";
 import Contact from "../../pages/contact/Contact";
 import Home from "../../pages/home/Home";
-import Gallery from "../../pages/gallery/Gallery";
+import Portfolio from "../../pages/gallery/Portfolio";
 import About from "../../pages/about/About";
 import Layout from "../layout/Layout";
 import { Bio } from "../../pages/bio/Bio";
 import { Cv } from "../../pages/cv/Cv";
 import { Qa } from "../../pages/qa/Qa";
 import styles from "./App.module.css";
-import { GalleryProject } from "../../pages/gallery/GalleryProject";
 import Gallery2017 from "../../pages/gallery/gallery-by-year/Gallery2017";
 import Gallery2024 from "../../pages/gallery/gallery-by-year/Gallery2024";
+import { ArtProject } from "../../pages/gallery/ArtProject";
 
 function App() {
   return (
@@ -19,28 +19,22 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/gallery" element={<Gallery />}>
+          <Route path="/gallery" element={<Portfolio />}>
             <Route index element={<Navigate to="/gallery/2024" replace />} />
-            <Route path="/gallery/:year" element={<GalleryProject />} />
+            <Route path="/gallery/:year" element={<ArtProject />} />
             <Route path="/gallery/2024" element={<Gallery2024 />}>
               <Route
                 index
                 element={<Navigate to="/gallery/2024/fish" replace />}
               />
-              <Route
-                path="/gallery/2024/:project"
-                element={<GalleryProject />}
-              />
+              <Route path="/gallery/2024/:project" element={<ArtProject />} />
             </Route>
             <Route path="/gallery/2017" element={<Gallery2017 />}>
               <Route
                 index
                 element={<Navigate to="/gallery/2017/catasian" replace />}
               />
-              <Route
-                path="/gallery/2017/:project"
-                element={<GalleryProject />}
-              />
+              <Route path="/gallery/2017/:project" element={<ArtProject />} />
             </Route>
           </Route>
           <Route path="/contact" element={<Contact />} />

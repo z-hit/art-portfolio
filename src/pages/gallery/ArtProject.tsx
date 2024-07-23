@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-export const GalleryProject = () => {
+export const ArtProject = () => {
   const { project } = useParams();
   const { year } = useParams();
 
