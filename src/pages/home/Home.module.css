@@ -1,0 +1,8 @@
+.image_box {
+  margin-block-start: 50px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
