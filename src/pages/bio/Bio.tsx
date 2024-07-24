@@ -29,18 +29,15 @@ export const Bio = () => {
           which later became an absolute center of my artistic practice.
         </p>
         <p className={styles.text}>
-          In 2019, I moved back to my hometown in Russia where I continued
-          developing different ideas with a Catasian face.
+          In 2019, I moved back to my hometown on the Pacific coast of Russia
+          where I continue living and developing different ideas with a Catasian
+          face.
         </p>
         <p className={styles.text}>
           After experimenting with numerous art media and styles, I now focus on
           painting with acrylics on paper with details added with colored
           pencils. I love flat colors, simple geometry, mysterious symbols, and
           incorporating languages in my works.
-        </p>
-        <p className={styles.text}>
-          My main goal when creating artwork is to bring the joy of colors and a
-          bit of weirdness and fun together into this world.
         </p>
       </div>
     </div>

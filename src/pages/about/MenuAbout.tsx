@@ -2,6 +2,7 @@ import { MenuUI, TMenuLink } from "../../components/ui/menuUI/MenuUI";
 
 const MenuAboutLinks: TMenuLink[] = [
   { name: "Bio", url: "/about/bio" },
+  { name: "statement", url: "/about/statement" },
   { name: "CV", url: "/about/cv" },
   { name: "QA", url: "/about/qa" },
 ];

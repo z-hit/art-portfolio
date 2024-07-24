@@ -12,6 +12,7 @@ import styles from "./App.module.css";
 import Gallery2017 from "../../pages/gallery/gallery-by-year/Gallery2017";
 import Gallery2024 from "../../pages/gallery/gallery-by-year/Gallery2024";
 import { ArtProject } from "../../pages/gallery/ArtProject";
+import { Statement } from "../../pages/statement/Statement";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/about" element={<About />}>
             <Route index element={<Navigate to="/about/bio" replace />} />
             <Route path="/about/bio" element={<Bio />} />
+            <Route path="/about/statement" element={<Statement />} />
             <Route path="/about/cv" element={<Cv />} />
             <Route path="/about/qa" element={<Qa />} />
           </Route>
