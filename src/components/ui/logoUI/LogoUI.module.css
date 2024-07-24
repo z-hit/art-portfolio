@@ -7,3 +7,7 @@
   margin-block: 100px 50px;
   text-decoration: none;
 }
+
+.text:hover {
+  color: hsl(0, 0%, 60%);
+}
