@@ -14,15 +14,25 @@
   justify-content: center;
   width: auto;
   height: auto;
-  gap: 30px;
   width: 65%;
+}
+
+.section_title {
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-block: 30px 10px;
+}
+
+.text_year {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.text_year:not(:first-child) {
+  margin-block-start: 10px;
 }
 
 .text {
   font-size: 25px;
-}
-
-.image {
-  width: 65%;
-  height: auto;
 }

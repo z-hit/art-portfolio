@@ -21,7 +21,7 @@ export const Statement = () => {
           am trying to help the viewers order the chaos of the surrounding
           world, present them with the aesthetic pleasure of the harmony of
           colors and shapes, add a bit of mystery with the symbols and weird
-          creatures, and sometimes even entertain with a little bit of humor or
+          creatures, and sometimes even entertain with a touch of humor or
           irony.
         </p>
         <p className={styles.text}>

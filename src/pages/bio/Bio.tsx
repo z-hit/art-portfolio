@@ -19,7 +19,7 @@ export const Bio = () => {
         <p className={styles.text}>
           I have been passionate about art since early childhood, and started
           developing my art career professionally in 2015 when I moved to
-          Shanghai, China where I participated in various group art exhibitions
+          Shanghai, China, where I participated in various group art exhibitions
           as well as in charity events aimed at helping stray animals.
         </p>
         <p className={styles.text}>
