@@ -1,8 +1,8 @@
 .section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
+  align-items: start;
+  width: 65%;
   margin-block: 50px;
   gap: 50px;
 }
@@ -12,16 +12,13 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  width: auto;
-  height: auto;
-  width: 65%;
 }
 
 .section_title {
   font-size: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-block: 30px 10px;
+  margin-block-end: 10px;
 }
 
 .text_year {
