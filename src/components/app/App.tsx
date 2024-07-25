@@ -5,14 +5,14 @@ import Home from "../../pages/home/Home";
 import Portfolio from "../../pages/gallery/Portfolio";
 import About from "../../pages/about/About";
 import Layout from "../layout/Layout";
-import { Bio } from "../../pages/bio/Bio";
-import { Cv } from "../../pages/cv/Cv";
+import Bio from "../../pages/bio/Bio";
+import Cv from "../../pages/cv/Cv";
 import { Qa } from "../../pages/qa/Qa";
 import styles from "./App.module.css";
 import Gallery2017 from "../../pages/gallery/gallery-by-year/Gallery2017";
 import Gallery2024 from "../../pages/gallery/gallery-by-year/Gallery2024";
 import { ArtProject } from "../../pages/gallery/ArtProject";
-import { Statement } from "../../pages/statement/Statement";
+import Statement from "../../pages/statement/Statement";
 
 function App() {
   return (

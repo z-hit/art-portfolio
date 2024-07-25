@@ -1,6 +1,6 @@
 import styles from "./Cv.module.css";
 
-export const Cv = () => {
+const Cv = () => {
   return (
     <div className={styles.section}>
       <div className={styles.text_box}>
@@ -52,3 +52,5 @@ export const Cv = () => {
     </div>
   );
 };
+
+export default Cv;

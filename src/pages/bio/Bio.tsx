@@ -1,6 +1,6 @@
 import styles from "./Bio.module.css";
 
-export const Bio = () => {
+const Bio = () => {
   return (
     <div className={styles.section}>
       <img
@@ -43,3 +43,5 @@ export const Bio = () => {
     </div>
   );
 };
+
+export default Bio;
