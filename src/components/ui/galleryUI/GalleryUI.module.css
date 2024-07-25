@@ -1,0 +1,17 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_box {
+  min-width: 250px;
+  max-width: 20%;
+  height: auto;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}

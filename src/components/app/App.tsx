@@ -13,6 +13,7 @@ import Gallery2017 from "../../pages/gallery/gallery-by-year/Gallery2017";
 import Gallery2024 from "../../pages/gallery/gallery-by-year/Gallery2024";
 import { ArtProject } from "../../pages/gallery/ArtProject";
 import Statement from "../../pages/statement/Statement";
+import { ModalUI } from "../ui/modalUI/ModalUI";
 
 function App() {
   return (
@@ -48,6 +49,10 @@ function App() {
           </Route>
           <Route path="*" element={<Page404 />} />
         </Route>
+      </Routes>
+
+      <Routes>
+        <Route path="/:artwork" element={<ModalUI />} />
       </Routes>
     </div>
   );

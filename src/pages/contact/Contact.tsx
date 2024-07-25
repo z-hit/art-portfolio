@@ -23,13 +23,13 @@ const Contact = () => {
         <div className={styles.social_link_box}>
           <h4 className={styles.social_title}>VK: </h4>
           <Link to={"https://vk.ru/catasian"} className={styles.link}>
-            @Художник Женя Хитрова
+            Художник Женя Хитрова
           </Link>
         </div>
         <div className={styles.social_link_box}>
-          <h4 className={styles.social_title}>WeChat: </h4>
+          <h4 className={styles.social_title}>WeChat ID: </h4>
           <Link to={""} className={styles.link}>
-            @jarotea
+            jarotea
           </Link>
         </div>
       </div>

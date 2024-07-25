@@ -15,11 +15,6 @@
   justify-content: center;
 }
 
-.right {
-  align-items: end;
-  align-self: end;
-}
-
 .section_title {
   font-size: 27px;
   font-weight: bold;
