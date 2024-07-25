@@ -24,52 +24,26 @@ function App() {
             <Route path="/gallery/:year" element={<GalleryByYear />}>
               <Route path=":project" element={<GalleryProject />} />
             </Route>
+            <Route
+              path="/gallery/2017"
+              element={<Navigate to="/gallery/2017/catasian" replace />}
+            />
 
-            <Route path="/gallery/2017" element={<GalleryByYear />}>
-              <Route
-                index
-                element={<Navigate to="/gallery/2017/catasian" replace />}
-              />
-              <Route
-                path="/gallery/2017/:project"
-                element={<GalleryProject />}
-              />
-            </Route>
+            <Route
+              path="/gallery/2018"
+              element={<Navigate to="/gallery/2018/best2018" replace />}
+            />
 
-            <Route path="/gallery/2018" element={<GalleryByYear />}>
-              <Route
-                index
-                element={<Navigate to="/gallery/2018/best2018" replace />}
-              />
-              <Route
-                path="/gallery/2018/:project"
-                element={<GalleryProject />}
-              />
-            </Route>
-
-            <Route path="/gallery/2019-2020" element={<GalleryByYear />}>
-              <Route
-                index
-                element={
-                  <Navigate to="/gallery/2019-2020/best2019-2020" replace />
-                }
-              />
-              <Route
-                path="/gallery/2019-2020/:project"
-                element={<GalleryProject />}
-              />
-            </Route>
-
-            <Route path="/gallery/2024" element={<GalleryByYear />}>
-              <Route
-                index
-                element={<Navigate to="/gallery/2024/fish" replace />}
-              />
-              <Route
-                path="/gallery/2024/:project"
-                element={<GalleryProject />}
-              />
-            </Route>
+            <Route
+              path="/gallery/2019-2020"
+              element={
+                <Navigate to="/gallery/2019-2020/best2019-2020" replace />
+              }
+            />
+            <Route
+              path="/gallery/2024"
+              element={<Navigate to="/gallery/2024/fish" replace />}
+            />
           </Route>
           <Route path="/about" element={<About />}>
             <Route index element={<Navigate to="/about/bio" replace />} />
