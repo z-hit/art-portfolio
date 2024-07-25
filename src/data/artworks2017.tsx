@@ -8,6 +8,20 @@ export const catasian: TArtwork[] = [
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
   },
+  {
+    _id: "Mermaid2",
+    name: "Mermaid",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
+  {
+    _id: "Mermaid3",
+    name: "Mermaid",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
 ];
 
 export const catgirls: TArtwork[] = [
