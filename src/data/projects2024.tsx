@@ -8,6 +8,13 @@ export const birds: TArtwork[] = [
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
   },
+  {
+    _id: "Mermaid",
+    name: "Project BIRDS BIRDS",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
 ];
 
 export const fish: TArtwork[] = [
@@ -42,12 +49,47 @@ export const catyoga: TArtwork[] = [
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
   },
+  {
+    _id: "Mermaid",
+    name: "Project Cat Yoga",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
+  {
+    _id: "Mermaid",
+    name: "Project Cat Yoga",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
+  {
+    _id: "Mermaid",
+    name: "Project Cat Yoga",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
+  {
+    _id: "Mermaid",
+    name: "Project Cat Yoga",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
 ];
 
 export const catasianworld: TArtwork[] = [
   {
     _id: "Mermaid",
     name: "Project Catasian World",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
+  {
+    _id: "Mermaid",
+    name: "Project Catasian World 2",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),

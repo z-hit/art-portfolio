@@ -1,8 +1,8 @@
 import { TMenuLink } from "../../components/ui/menuUI/MenuUI";
 
-type TGalleryRoutesByYear = Record<string, TMenuLink[]>;
+type TRoutesProjectsByYears = Record<string, TMenuLink[]>;
 
-export const routeGalleryByYearLinks: TGalleryRoutesByYear = {
+export const routesProjectsByYears: TRoutesProjectsByYears = {
   "2017": [
     { name: "Catasian", url: "/gallery/2017/catasian" },
     { name: "Cat Girls", url: "/gallery/2017/catgirls" },

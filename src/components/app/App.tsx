@@ -10,8 +10,8 @@ import Cv from "../../pages/cv/Cv";
 import { Qa } from "../../pages/qa/Qa";
 import styles from "./App.module.css";
 import Statement from "../../pages/statement/Statement";
-import GalleryByYear from "../../pages/gallery/GalleryByYear";
 import { GalleryProject } from "../../pages/gallery/GalleryProject";
+import GalleryYear from "../../pages/gallery/GalleryYear";
 
 function App() {
   return (
@@ -21,19 +21,17 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/gallery" element={<Portfolio />}>
             <Route index element={<Navigate to="/gallery/2024" replace />} />
-            <Route path="/gallery/:year" element={<GalleryByYear />}>
+            <Route path="/gallery/:year" element={<GalleryYear />}>
               <Route path=":project" element={<GalleryProject />} />
             </Route>
             <Route
               path="/gallery/2017"
               element={<Navigate to="/gallery/2017/catasian" replace />}
             />
-
             <Route
               path="/gallery/2018"
               element={<Navigate to="/gallery/2018/best2018" replace />}
             />
-
             <Route
               path="/gallery/2019-2020"
               element={
