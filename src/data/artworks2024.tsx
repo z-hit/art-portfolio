@@ -3,7 +3,7 @@ import { TArtwork } from "../components/ui/galleryUI/GalleryUI";
 export const birds: TArtwork[] = [
   {
     _id: "Mermaid",
-    name: "Project2024",
+    name: "Project Birds",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
@@ -13,7 +13,21 @@ export const birds: TArtwork[] = [
 export const fish: TArtwork[] = [
   {
     _id: "Mermaid",
-    name: "Mermaid",
+    name: "Project Fish",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
+  {
+    _id: "Mermaid",
+    name: "Project Fish 2",
+    year: "2017",
+    project: "Catasian",
+    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+  },
+  {
+    _id: "Mermaid",
+    name: "Project Fish 3",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
@@ -23,7 +37,7 @@ export const fish: TArtwork[] = [
 export const catyoga: TArtwork[] = [
   {
     _id: "Mermaid",
-    name: "Mermaid",
+    name: "Project Cat Yoga",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
@@ -33,7 +47,7 @@ export const catyoga: TArtwork[] = [
 export const catasianworld: TArtwork[] = [
   {
     _id: "Mermaid",
-    name: "Mermaid",
+    name: "Project Catasian World",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),

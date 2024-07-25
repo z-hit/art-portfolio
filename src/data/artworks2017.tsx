@@ -10,14 +10,14 @@ export const catasian: TArtwork[] = [
   },
   {
     _id: "Mermaid2",
-    name: "Mermaid",
+    name: "Mermaid2",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
   },
   {
     _id: "Mermaid3",
-    name: "Mermaid",
+    name: "Mermaid3",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
