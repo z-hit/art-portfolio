@@ -5,6 +5,7 @@
   width: 65%;
   margin-block: 100px;
   gap: 50px;
+  height: 90%;
 }
 
 .text_box {
@@ -12,6 +13,11 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
+}
+
+.right {
+  align-items: end;
+  align-self: end;
 }
 
 .section_title {
@@ -43,9 +49,9 @@
 .link {
   text-decoration: none;
   font-size: 25px;
-  color: hsl(0, 0%, 60%);
+  color: hsl(0, 0%, 30%);
 }
 
 .link:hover {
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 60%);
 }
