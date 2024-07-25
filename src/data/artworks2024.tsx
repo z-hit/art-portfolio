@@ -3,7 +3,7 @@ import { TArtwork } from "../components/ui/galleryUI/GalleryUI";
 export const birds: TArtwork[] = [
   {
     _id: "Mermaid",
-    name: "Mermaid",
+    name: "Project2024",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
