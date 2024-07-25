@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { allProjects } from "../../data/allProjectsRefLinks";
+import { allProjects } from "../../data/allProjects";
 
 export const GalleryProject = () => {
   const { project } = useParams();

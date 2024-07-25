@@ -10,7 +10,7 @@ export const routeGalleryByYearLinks: TGalleryRoutesByYear = {
   ],
   "2018": [{ name: "Best 2018", url: "/gallery/2018/best2018" }],
   "2019-2020": [
-    { name: "Best 2019 - 20202", url: "/gallery/2019-2020/best2019-2020" },
+    { name: "Best 2019 - 2020", url: "/gallery/2019-2020/best2019-2020" },
   ],
   "2024": [
     { name: "Fish", url: "/gallery/2024/fish" },
