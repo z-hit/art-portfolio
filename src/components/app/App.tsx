@@ -27,20 +27,20 @@ function App() {
             <Route path="/gallery/:year" element={<GalleryByYear />}>
               <Route path=":project" element={<GalleryProject />} />
             </Route>
-            <Route path="/gallery/2024" element={<Gallery2024 />}>
+            {/* <Route path="/gallery/2024" element={<GalleryByYear />}>
               <Route
                 index
                 element={<Navigate to="/gallery/2024/fish" replace />}
               />
               <Route path="/gallery/2024/:project" element={<ArtProject />} />
             </Route>
-            <Route path="/gallery/2017" element={<Gallery2017 />}>
+            <Route path="/gallery/2017" element={<GalleryByYear />}>
               <Route
                 index
                 element={<Navigate to="/gallery/2017/catasian" replace />}
               />
               <Route path="/gallery/2017/:project" element={<ArtProject />} />
-            </Route>
+            </Route> */}
           </Route>
           <Route path="/about" element={<About />}>
             <Route index element={<Navigate to="/about/bio" replace />} />
