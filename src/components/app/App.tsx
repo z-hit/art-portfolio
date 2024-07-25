@@ -14,6 +14,7 @@ import Gallery2024 from "../../pages/gallery/gallery-by-year/Gallery2024";
 import { ArtProject } from "../../pages/gallery/ArtProject";
 import Statement from "../../pages/statement/Statement";
 import GalleryByYear from "../../pages/gallery/GalleryByYear";
+import { GalleryProject } from "../../pages/gallery/GalleryProject";
 
 function App() {
   return (
