@@ -1,4 +1,4 @@
-import MenuMain from "../../pages/home/MenuMain";
+import MenuMain from "./MenuMain";
 import Logo from "../logo/Logo";
 import styles from "./Header.module.css";
 

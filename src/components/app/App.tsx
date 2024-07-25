@@ -13,7 +13,7 @@ import Gallery2017 from "../../pages/gallery/gallery-by-year/Gallery2017";
 import Gallery2024 from "../../pages/gallery/gallery-by-year/Gallery2024";
 import { ArtProject } from "../../pages/gallery/ArtProject";
 import Statement from "../../pages/statement/Statement";
-import { ModalUI } from "../ui/modalUI/ModalUI";
+import GalleryByYear from "../../pages/gallery/GalleryByYear";
 
 function App() {
   return (
@@ -23,7 +23,9 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/gallery" element={<Portfolio />}>
             <Route index element={<Navigate to="/gallery/2024" replace />} />
-            <Route path="/gallery/:year" element={<ArtProject />} />
+            <Route path="/gallery/:year" element={<GalleryByYear />}>
+              <Route path=":project" element={<GalleryProject />} />
+            </Route>
             <Route path="/gallery/2024" element={<Gallery2024 />}>
               <Route
                 index
@@ -39,7 +41,6 @@ function App() {
               <Route path="/gallery/2017/:project" element={<ArtProject />} />
             </Route>
           </Route>
-          <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />}>
             <Route index element={<Navigate to="/about/bio" replace />} />
             <Route path="/about/bio" element={<Bio />} />
@@ -47,13 +48,14 @@ function App() {
             <Route path="/about/cv" element={<Cv />} />
             <Route path="/about/qa" element={<Qa />} />
           </Route>
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Page404 />} />
         </Route>
       </Routes>
 
-      <Routes>
+      {/*  <Routes>
         <Route path="/:artwork" element={<ModalUI />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

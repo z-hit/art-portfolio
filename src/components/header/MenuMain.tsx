@@ -1,4 +1,4 @@
-import { MenuUI, TMenuLink } from "../../components/ui/menuUI/MenuUI";
+import { MenuUI, TMenuLink } from "../ui/menuUI/MenuUI";
 
 const menuMainLinks: TMenuLink[] = [
   { name: "About", url: "/about" },
