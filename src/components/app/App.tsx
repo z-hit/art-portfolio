@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/gallery" element={<Portfolio />}>
-            <Route index element={<Navigate to="/gallery/2024" replace />} />
+            <Route index element={<Navigate to="/gallery/2017" replace />} />
             <Route path="/gallery/:year" element={<GalleryYear />}>
               <Route path=":project" element={<GalleryProject />} />
             </Route>
