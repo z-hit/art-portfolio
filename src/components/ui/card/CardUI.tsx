@@ -3,11 +3,14 @@ import styles from "./Card.module.css";
 
 type TCardProps = {
   artwork: TArtwork;
+  key: string;
 };
 
 const CardUI = (props: TCardProps) => {
   return (
-    <div onClick={() => console.log("image click wroks: " + props.artwork.name)}>
+    <div
+      onClick={() => console.log("image click wroks: " + props.artwork.name)}
+    >
       <img
         className={styles.image}
         src={props.artwork.url}
