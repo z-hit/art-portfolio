@@ -1,14 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./MenuUI.module.css";
-//import clsx from "clsx";
-
-export type TArtwork = {
-  _id: string;
-  name: string;
-  project: string;
-  year: string;
-  url: string;
-};
+import { TArtwork } from "../../../utils/types";
 
 export const GalleryUI = (artworks: TArtwork[]) => {
   return (

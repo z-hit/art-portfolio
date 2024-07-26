@@ -1,12 +1,20 @@
 import { Outlet, useParams } from "react-router-dom";
-import { TMenuLink } from "../../components/ui/menuUI/MenuUI";
 import { MenuProjects } from "./MenuProjects";
-import styles from "./Gallery.module.css";
-import { routesProjectsByYears } from "./RoutesProjectsByYears";
+import styles from "./Portfolio.module.css";
+import { TMenuLink, TProject } from "../../utils/types";
+import { projects } from "../../data/projects";
 
 const GalleryYear = () => {
   const { year } = useParams();
-  const projectsLinks: TMenuLink[] = year ? routesProjectsByYears[year] : [];
+
+  const projectsByYear: TProject[] = projects.filter(
+    (proj) => proj.year === year
+  );
+  const projectsLinks: TMenuLink[] = [];
+
+  projectsByYear.map((proj) =>
+    projectsLinks.push({ name: proj.name, path: proj.path })
+  );
 
   return (
     <>

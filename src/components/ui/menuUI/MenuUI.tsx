@@ -2,11 +2,7 @@ import { nanoid } from "nanoid";
 import { NavLink } from "react-router-dom";
 import styles from "./MenuUI.module.css";
 import clsx from "clsx";
-
-export type TMenuLink = {
-  name: string;
-  url: string;
-};
+import { TMenuLink } from "../../../utils/types";
 
 export const MenuUI = (links: TMenuLink[]) => {
   return (
@@ -18,7 +14,7 @@ export const MenuUI = (links: TMenuLink[]) => {
               className={({ isActive }) =>
                 clsx(styles.link, isActive && styles.link_active)
               }
-              to={link.url}
+              to={link.path}
               key={nanoid()}
             >
               {link.name}

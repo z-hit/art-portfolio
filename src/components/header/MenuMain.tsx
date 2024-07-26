@@ -1,9 +1,10 @@
-import { MenuUI, TMenuLink } from "../ui/menuUI/MenuUI";
+import { TMenuLink } from "../../utils/types";
+import { MenuUI } from "../ui/menuUI/MenuUI";
 
 const menuMainLinks: TMenuLink[] = [
-  { name: "About", url: "/about" },
-  { name: "Gallery", url: "/gallery" },
-  { name: "Contact", url: "/contact" },
+  { name: "About", path: "/about" },
+  { name: "Gallery", path: "/gallery" },
+  { name: "Contact", path: "/contact" },
 ];
 
 const MenuMain = () => MenuUI(menuMainLinks);

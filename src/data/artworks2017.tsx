@@ -1,26 +1,29 @@
-import { TArtwork } from "../components/ui/galleryUI/GalleryUI";
+import { TArtwork } from "../utils/types";
 
 export const catasian: TArtwork[] = [
   {
-    _id: "Mermaid",
-    name: "Mermaid",
+    _id: "mermaid",
+    name: "mermaid",
     year: "2017",
-    project: "Catasian",
+    project: "catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+    path: "/gallery/2017/catasian/mermaid",
   },
   {
-    _id: "Mermaid2",
-    name: "Mermaid2",
+    _id: "mermaid2",
+    name: "mermaid2",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+    path: "/gallery/2017/catasian/mermaid2",
   },
   {
-    _id: "Mermaid3",
-    name: "Mermaid3",
+    _id: "mermaid3",
+    name: "mermaid3",
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+    path: "/gallery/2017/catasian/mermaid3",
   },
 ];
 
@@ -31,6 +34,7 @@ export const catgirls: TArtwork[] = [
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+    path: "/gallery/2017/catasian/mermaid",
   },
 ];
 
@@ -41,5 +45,6 @@ export const animalasian: TArtwork[] = [
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+    path: "/gallery/2017/catasian/mermaid",
   },
 ];

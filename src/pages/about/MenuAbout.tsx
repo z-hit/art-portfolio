@@ -1,10 +1,11 @@
-import { MenuUI, TMenuLink } from "../../components/ui/menuUI/MenuUI";
+import { MenuUI } from "../../components/ui/menuUI/MenuUI";
+import { TMenuLink } from "../../utils/types";
 
 const MenuAboutLinks: TMenuLink[] = [
-  { name: "Bio", url: "/about/bio" },
-  { name: "statement", url: "/about/statement" },
-  { name: "CV", url: "/about/cv" },
-  { name: "QA", url: "/about/qa" },
+  { name: "Bio", path: "/about/bio" },
+  { name: "statement", path: "/about/statement" },
+  { name: "CV", path: "/about/cv" },
+  { name: "QA", path: "/about/qa" },
 ];
 
 const MenuAbout = () => MenuUI(MenuAboutLinks);

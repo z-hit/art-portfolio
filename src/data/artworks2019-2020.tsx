@@ -1,4 +1,4 @@
-import { TArtwork } from "../components/ui/galleryUI/GalleryUI";
+import { TArtwork } from "../utils/types";
 
 export const best2019_2020: TArtwork[] = [
   {
@@ -7,5 +7,6 @@ export const best2019_2020: TArtwork[] = [
     year: "2017",
     project: "Catasian",
     url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+    path: "/gallery/2017/catasian/mermaid",
   },
 ];
