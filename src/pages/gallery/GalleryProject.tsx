@@ -8,7 +8,7 @@ export const GalleryProject = () => {
   const { project } = useParams();
 
   const artworks = project
-    ? projects.filter((proj) => proj.name === project)[0].artworks
+    ? projects.filter((proj) => proj.id === project)[0].artworks
     : [];
 
   return (

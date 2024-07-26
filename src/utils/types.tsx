@@ -8,6 +8,7 @@ export type TArtwork = {
 };
 
 export type TProject = {
+  id: string;
   year: string;
   name: string;
   path: string;
