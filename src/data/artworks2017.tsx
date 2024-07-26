@@ -6,7 +6,7 @@ export const catasian: TArtwork[] = [
     name: "mermaid",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Mermaid.jpg"),
+    url: require("../assets/artworks/2017/catasian/mermaid.jpg"),
     path: "/gallery/2017/catasian/mermaid",
   },
   {
@@ -14,7 +14,7 @@ export const catasian: TArtwork[] = [
     name: "ballet",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Ballet.jpg"),
+    url: require("../assets/artworks/2017/catasian/ballet.jpg"),
     path: "/gallery/2017/catasian/ballet",
   },
   {
@@ -22,7 +22,7 @@ export const catasian: TArtwork[] = [
     name: "birdie",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Birdie.jpg"),
+    url: require("../assets/artworks/2017/catasian/birdie.jpg"),
     path: "/gallery/2017/catasian/birdie",
   },
   {
@@ -30,7 +30,7 @@ export const catasian: TArtwork[] = [
     name: "deer",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Deer.jpg"),
+    url: require("../assets/artworks/2017/catasian/deer.jpg"),
     path: "/gallery/2017/catasian/deer",
   },
   {
@@ -38,7 +38,7 @@ export const catasian: TArtwork[] = [
     name: "dragon",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Dragon.jpg"),
+    url: require("../assets/artworks/2017/catasian/dragon.jpg"),
     path: "/gallery/2017/catasian/dragon",
   },
   {
@@ -46,7 +46,7 @@ export const catasian: TArtwork[] = [
     name: "eight",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Eight.jpg"),
+    url: require("../assets/artworks/2017/catasian/eight.jpg"),
     path: "/gallery/2017/catasian/eight",
   },
   {
@@ -54,7 +54,7 @@ export const catasian: TArtwork[] = [
     name: "octopus",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Octopus.jpg"),
+    url: require("../assets/artworks/2017/catasian/octopus.jpg"),
     path: "/gallery/2017/catasian/octopus",
   },
   {
@@ -62,7 +62,7 @@ export const catasian: TArtwork[] = [
     name: "party",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Party.jpg"),
+    url: require("../assets/artworks/2017/catasian/party.jpg"),
     path: "/gallery/2017/catasian/party",
   },
   {
@@ -70,7 +70,7 @@ export const catasian: TArtwork[] = [
     name: "snakie",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Snakie.jpg"),
+    url: require("../assets/artworks/2017/catasian/snakie.jpg"),
     path: "/gallery/2017/catasian/snakie",
   },
   {
@@ -78,7 +78,7 @@ export const catasian: TArtwork[] = [
     name: "yoga",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/Yoga.jpg"),
+    url: require("../assets/artworks/2017/catasian/yoga.jpg"),
     path: "/gallery/2017/catasian/yoga",
   },
 ];
