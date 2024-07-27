@@ -1,0 +1,14 @@
+.modal {
+  width: 1vw;
+  height: 1vh;
+}
+
+.button {
+  width: 200px;
+  background-color: beige;
+}
+
+.content {
+  width: 85%;
+  height: auto;
+}

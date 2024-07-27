@@ -1,23 +1,18 @@
-import { useParams } from "react-router-dom";
-import { TArtwork } from "../../../utils/types";
+import { memo, ReactNode } from "react";
+import styles from "./Modal.module.css";
 
-type TmodalProps = {
+export type TModalUIProps = {
   onClose: () => void;
+  children?: ReactNode;
 };
 
-export const ModalUI = (props: TmodalProps) => {
-  //const {artwork} = useParams();
-  //const artwork =  */
-
-  return (
-    <div>
-      {/* <img
-        src={require({artwork.url})}
-        className={styles.image}
-        alt={artwork.name}
-        width="300"
-        height="auto"
-      /> */}
+export const ModalUI = memo(({ onClose, children }: TModalUIProps) => (
+  <>
+    <div className={styles.modal}>
+      <button onClick={onClose} className={styles.button} type="button">
+        CLOSE MODAL
+      </button>
+      <div className={styles.content}>{children}</div>
     </div>
-  );
-};
+  </>
+));

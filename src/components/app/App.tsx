@@ -19,12 +19,13 @@ import Statement from "../../pages/statement/Statement";
 import { GalleryProject } from "../../pages/gallery/GalleryProject";
 import GalleryYear from "../../pages/gallery/GalleryYear";
 import { Artwork } from "../artwork/Artwork";
+import { Modal } from "../ui/modalUI/Modal";
 
 function App() {
   const location = useLocation();
   const backgroundLocation = location.state?.background;
-  /* const navigate = useNavigate();
-  const handleCloseModal = () => navigate(-1); */
+  const navigate = useNavigate();
+  const handleCloseModal = () => navigate(-1);
 
   return (
     <div className={styles.app}>
@@ -71,7 +72,11 @@ function App() {
         <Routes>
           <Route
             path="/gallery/:year/:project/:artwork"
-            element={<Artwork />}
+            element={
+              <Modal onClose={handleCloseModal}>
+                <Artwork />
+              </Modal>
+            }
           />
         </Routes>
       )}
