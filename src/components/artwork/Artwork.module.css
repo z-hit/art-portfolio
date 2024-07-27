@@ -1,0 +1,8 @@
+.image_box {
+  width: 85%;
+  height: auto;
+}
+
+.image {
+  width: fit-content;
+}

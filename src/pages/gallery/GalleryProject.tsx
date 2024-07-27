@@ -20,6 +20,7 @@ export const GalleryProject = () => {
           className={styles.article}
           to={`/gallery/${artwork.year}/${artwork.project}/${artwork._id}`}
           state={{ background: location }}
+          key={nanoid()}
         >
           <CardUI artwork={artwork} key={nanoid()} project={projectArtworks} />
         </Link>
