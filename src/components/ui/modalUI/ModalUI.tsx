@@ -1,8 +1,13 @@
 import { useParams } from "react-router-dom";
+import { TArtwork } from "../../../utils/types";
 
-export const ModalUI = () => {
-  /* const {artwork-id} = useParams();
-  const artwork =  */
+type TmodalProps = {
+  onClose: () => void;
+};
+
+export const ModalUI = (props: TmodalProps) => {
+  //const {artwork} = useParams();
+  //const artwork =  */
 
   return (
     <div>

@@ -1,4 +1,10 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import {
+  Navigate,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import Page404 from "../../pages/page404/Page404";
 import Contact from "../../pages/contact/Contact";
 import Home from "../../pages/home/Home";
@@ -12,8 +18,14 @@ import styles from "./App.module.css";
 import Statement from "../../pages/statement/Statement";
 import { GalleryProject } from "../../pages/gallery/GalleryProject";
 import GalleryYear from "../../pages/gallery/GalleryYear";
+import { ModalUI } from "../ui/modalUI/ModalUI";
 
 function App() {
+  const location = useLocation();
+  const backgroundLocation = location.state?.background;
+  const navigate = useNavigate();
+  const handleCloseModal = () => navigate(-1);
+
   return (
     <div className={styles.app}>
       <Routes>
@@ -55,9 +67,14 @@ function App() {
         </Route>
       </Routes>
 
-      {/*  <Routes>
-        <Route path="/:artwork" element={<ModalUI />} />
-      </Routes> */}
+      {/*  {backgroundLocation && (
+        <Routes>
+          <Route
+            path="/gallery/:year/:project/:artwork"
+            element={<ModalUI onClose={handleCloseModal}></ModalUI>}
+          />
+        </Routes>
+      )} */}
     </div>
   );
 }

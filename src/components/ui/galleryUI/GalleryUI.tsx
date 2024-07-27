@@ -8,7 +8,7 @@ export const GalleryUI = (artworks: TArtwork[]) => {
       {artworks.map((artwork) => {
         return (
           <div className={styles.image_box}>
-            <Link to={"/:artwork"}>
+            <Link to={"/gallery/:year/:project/:artwork"}>
               <img
                 src={require(artwork.url)}
                 className={styles.image}

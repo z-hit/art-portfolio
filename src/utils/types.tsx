@@ -14,6 +14,7 @@ export type TProject = {
   path: string;
   artworks: TArtwork[];
 };
+
 export type TMenuLink = {
   name: string;
   path: string;
