@@ -8,7 +8,11 @@ export const Artwork = () => {
 
   return (
     <div className={styles.image_box}>
-      <img src={artworkData.url} alt={artworkData.name} />
+      <img
+        className={styles.image}
+        src={artworkData.url}
+        alt={artworkData.name}
+      />
     </div>
   );
 };
