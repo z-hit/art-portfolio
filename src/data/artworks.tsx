@@ -439,7 +439,7 @@ const artworks: TArtwork[] = [
     year: "2024",
     project: "fish",
     url: require("../assets/artworks/2024/fish/i-can-fly.JPG"),
-    path: "/gallery/2017/catasian/i-can-fly",
+    path: "/gallery/2024/fish/i-can-fly",
   },
   {
     _id: "pigeon",
