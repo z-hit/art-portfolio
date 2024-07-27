@@ -18,23 +18,23 @@ import styles from "./App.module.css";
 import Statement from "../../pages/statement/Statement";
 import { GalleryProject } from "../../pages/gallery/GalleryProject";
 import GalleryYear from "../../pages/gallery/GalleryYear";
-import { ModalUI } from "../ui/modalUI/ModalUI";
+import { Artwork } from "../artwork/Artwork";
 
 function App() {
   const location = useLocation();
   const backgroundLocation = location.state?.background;
-  const navigate = useNavigate();
-  const handleCloseModal = () => navigate(-1);
+  /* const navigate = useNavigate();
+  const handleCloseModal = () => navigate(-1); */
 
   return (
     <div className={styles.app}>
-      <Routes>
+      <Routes location={backgroundLocation || location}>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/gallery" element={<Portfolio />}>
             <Route index element={<Navigate to="/gallery/2017" replace />} />
             <Route path="/gallery/:year" element={<GalleryYear />}>
-              <Route path=":project" element={<GalleryProject />} />
+              <Route path=":project" element={<GalleryProject />}></Route>
             </Route>
             <Route
               path="/gallery/2017"
@@ -67,14 +67,14 @@ function App() {
         </Route>
       </Routes>
 
-      {/*  {backgroundLocation && (
+      {backgroundLocation && (
         <Routes>
           <Route
             path="/gallery/:year/:project/:artwork"
-            element={<ModalUI onClose={handleCloseModal}></ModalUI>}
+            element={<Artwork />}
           />
         </Routes>
-      )} */}
+      )}
     </div>
   );
 }
