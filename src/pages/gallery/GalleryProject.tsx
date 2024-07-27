@@ -1,4 +1,4 @@
-import { Link, Outlet, useLocation, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import CardUI from "../../components/ui/card/CardUI";
 import styles from "./Portfolio.module.css";
 import { nanoid } from "nanoid";
@@ -17,7 +17,6 @@ export const GalleryProject = () => {
     <div className={styles.wrapper}>
       {projectArtworks.map((artwork) => (
         <Link
-          className={styles.article}
           to={`/gallery/${artwork.year}/${artwork.project}/${artwork._id}`}
           state={{ background: location }}
           key={nanoid()}

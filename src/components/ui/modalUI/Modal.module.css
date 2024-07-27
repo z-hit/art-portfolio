@@ -5,7 +5,7 @@
   transform: translate(-50%, -50%);
   z-index: 9999;
   margin: auto;
-  background-color: hsla(0, 0%, 100%, 0.95);
+  background-color: hsla(0, 0%, 100%, 0.9);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -15,12 +15,8 @@
 }
 
 .button {
-  width: 200px;
-  height: 50px;
-  background-color: rgb(255, 40, 101);
-  color: white;
   border: none;
-  font-weight: bold;
+  background-color: transparent;
 }
 
 .button:hover {
@@ -32,6 +28,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 95vh;
-  width: 95vw;
+  height: 95%;
+  width: 95%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: hsla(0, 0%, 100%, 0.9);
+  z-index: 3;
 }
