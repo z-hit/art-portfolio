@@ -3,6 +3,7 @@ import styles from "./NavArrows.module.css";
 type TNavArrowProps = {
   onClick: () => void;
   isVisible: boolean;
+  id: string;
 };
 
 export const NavArrowNext = ({ onClick, isVisible }: TNavArrowProps) => {
