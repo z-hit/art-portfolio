@@ -1,3 +1,10 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
 .arrow {
   width: 60px;
   height: auto;
@@ -11,11 +18,9 @@
 }
 
 .arrow_hidden {
-  opacity: 0.15;
-  cursor: default;
-}
-
-.arrow_hidden:hover {
-  opacity: 0.15;
+  width: 60px;
+  height: auto;
+  padding: 0;
+  opacity: 0;
   cursor: default;
 }

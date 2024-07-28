@@ -28,6 +28,10 @@ export const ArtworkPreview = () => {
     if (artworkPreviewIndex === artworkProjectLength - 1) {
       setVisibleNavNext(false);
     }
+    return () => {
+      setVisibleNavPrev(true);
+      setVisibleNavNext(true);
+    };
   }, [artworkPreview, artworkPreviewIndex, artworkProjectLength]);
 
   const showPrevArtwork = () => {

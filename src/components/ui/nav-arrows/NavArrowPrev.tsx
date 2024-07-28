@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import styles from "./NavArrows.module.css";
 
 type TNavArrowProps = {
@@ -6,19 +7,19 @@ type TNavArrowProps = {
 };
 
 export const NavArrowPrev = ({ onClick, isVisible }: TNavArrowProps) => {
-  const arrow = document.getElementById("nav-arrow");
+  const style = (visible: boolean) => {
+    if (!visible) {
+      return styles.arrow_hidden;
+    }
 
-  if (!isVisible) {
-    arrow?.classList.add("arrow_hidden");
-  } else {
-    arrow?.classList.remove("arrow_hidden");
-  }
+    return styles.arrow;
+  };
 
   return (
-    <button onClick={onClick} disabled={!isVisible}>
+    <button className={styles.button} onClick={onClick} disabled={!isVisible}>
       <img
-        id="nav-arrow"
-        className={styles.arrow}
+        id="arrow"
+        className={style(isVisible)}
         src={require("../../../assets/icons/nav-arrow-prev.png")}
         alt="close-icon"
       />
