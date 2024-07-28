@@ -2,7 +2,6 @@ import { TArtwork } from "../../../utils/types";
 import styles from "./Card.module.css";
 
 type TCardProps = {
-  project: TArtwork[];
   artwork: TArtwork;
   key: string;
 };

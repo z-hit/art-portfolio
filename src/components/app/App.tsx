@@ -18,7 +18,7 @@ import styles from "./App.module.css";
 import Statement from "../../pages/statement/Statement";
 import { GalleryProject } from "../../pages/gallery/GalleryProject";
 import GalleryYear from "../../pages/gallery/GalleryYear";
-import { Artwork } from "../artwork/ArtworkPreview";
+import { ArtworkPreview } from "../artwork-preview/ArtworkPreview";
 import { Modal } from "../ui/modalUI/Modal";
 
 function App() {
@@ -74,7 +74,7 @@ function App() {
             path="/gallery/:year/:project/:artwork"
             element={
               <Modal onClose={handleCloseModal}>
-                <Artwork />
+                <ArtworkPreview />
               </Modal>
             }
           />

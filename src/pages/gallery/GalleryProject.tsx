@@ -21,7 +21,7 @@ export const GalleryProject = () => {
           state={{ background: location }}
           key={nanoid()}
         >
-          <CardUI artwork={artwork} key={nanoid()} project={projectArtworks} />
+          <CardUI artwork={artwork} key={nanoid()} />
         </Link>
       ))}
     </div>
