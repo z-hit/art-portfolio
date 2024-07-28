@@ -51,8 +51,6 @@ export const ArtworkPreview = () => {
     }
     return () => {
       document.removeEventListener("keydown", handleArrowKeyDown);
-      document.removeEventListener("keydown", handleArrowKeyDown);
-
       setVisibleNavPrev(true);
       setVisibleNavNext(true);
     };
