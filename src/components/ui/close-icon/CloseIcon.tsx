@@ -4,7 +4,7 @@ export const CloseIcon = () => {
   return (
     <img
       className={styles.icon}
-      src={require("../../../assets/navogation-icons/close-icon-64.png")}
+      src={require("../../../assets/icons/close-icon-64.png")}
       alt="close-icon"
     />
   );

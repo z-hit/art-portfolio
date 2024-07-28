@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import styles from "./Artwork.module.css";
+import styles from "./ArtworkPreview.module.css";
 import artworks from "../../data/artworks";
 
 export const Artwork = () => {
