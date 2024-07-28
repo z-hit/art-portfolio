@@ -1,4 +1,7 @@
 .icon {
+  position: absolute;
+  right: 1%;
+  top: 1%;
   width: 60px;
   height: 60px;
   padding: 0;
