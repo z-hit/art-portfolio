@@ -6,9 +6,14 @@
 }
 
 .image_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-width: 250px;
   max-width: 20%;
-  height: auto;
+  min-height: 250px;
+  max-height: 20%;
 }
 
 .image {

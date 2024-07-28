@@ -13,8 +13,6 @@ export const GalleryUI = (artworks: TArtwork[]) => {
                 src={require(artwork.url)}
                 className={styles.image}
                 alt={artwork.name}
-                width="300"
-                height="auto"
               />
             </Link>
           </div>
