@@ -13,7 +13,6 @@ import About from "../../pages/about/About";
 import Layout from "../layout/Layout";
 import Bio from "../../pages/bio/Bio";
 import Cv from "../../pages/cv/Cv";
-import { Qa } from "../../pages/qa/Qa";
 import styles from "./App.module.css";
 import Statement from "../../pages/statement/Statement";
 import { GalleryProject } from "../../pages/gallery/GalleryProject";

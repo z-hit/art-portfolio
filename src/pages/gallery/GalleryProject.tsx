@@ -1,5 +1,5 @@
 import { Link, useLocation, useParams } from "react-router-dom";
-import CardUI from "../../components/ui/card/CardUI";
+import CardUI from "../../components/ui/cardUI/CardUI";
 import styles from "./Portfolio.module.css";
 import { nanoid } from "nanoid";
 import { TArtwork } from "../../utils/types";

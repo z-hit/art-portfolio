@@ -9,3 +9,7 @@
   cursor: pointer;
   opacity: 0.6;
 }
+
+.arrow_hidden {
+  display: none;
+}
