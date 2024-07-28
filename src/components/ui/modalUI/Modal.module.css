@@ -5,7 +5,7 @@
   transform: translate(-50%, -50%);
   z-index: 887;
   margin: auto;
-  background-color: hsla(0, 0%, 100%, 0.9);
+  background-color: hsla(0, 0%, 100%, 0.95);
   width: 100vw;
   height: 100vh;
   display: flex;

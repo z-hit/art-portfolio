@@ -61,7 +61,6 @@ function App() {
             <Route path="/about/bio" element={<Bio />} />
             <Route path="/about/statement" element={<Statement />} />
             <Route path="/about/cv" element={<Cv />} />
-            <Route path="/about/qa" element={<Qa />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Page404 />} />
