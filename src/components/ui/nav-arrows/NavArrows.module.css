@@ -11,5 +11,11 @@
 }
 
 .arrow_hidden {
-  display: none;
+  opacity: 0.15;
+  cursor: default;
+}
+
+.arrow_hidden:hover {
+  opacity: 0.15;
+  cursor: default;
 }

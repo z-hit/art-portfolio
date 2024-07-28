@@ -7,6 +7,7 @@ type TNavArrowProps = {
 
 export const NavArrowPrev = ({ onClick, isVisible }: TNavArrowProps) => {
   const arrow = document.getElementById("nav-arrow");
+
   if (!isVisible) {
     arrow?.classList.add("arrow_hidden");
   } else {
@@ -14,12 +15,13 @@ export const NavArrowPrev = ({ onClick, isVisible }: TNavArrowProps) => {
   }
 
   return (
-    <div id="nav-arrow" onClick={onClick}>
+    <button onClick={onClick} disabled={!isVisible}>
       <img
+        id="nav-arrow"
         className={styles.arrow}
         src={require("../../../assets/icons/nav-arrow-prev.png")}
         alt="close-icon"
       />
-    </div>
+    </button>
   );
 };

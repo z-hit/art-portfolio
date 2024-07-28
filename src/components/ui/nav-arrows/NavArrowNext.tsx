@@ -7,18 +7,21 @@ type TNavArrowProps = {
 
 export const NavArrowNext = ({ onClick, isVisible }: TNavArrowProps) => {
   const arrow = document.getElementById("nav-arrow");
+
   if (!isVisible) {
     arrow?.classList.add("arrow_hidden");
   } else {
     arrow?.classList.remove("arrow_hidden");
   }
+
   return (
-    <div id="nav-arrow" onClick={onClick}>
+    <button onClick={onClick} disabled={!isVisible}>
       <img
+        id="nav-arrow"
         className={styles.arrow}
         src={require("../../../assets/icons/nav-arrow-next.png")}
         alt="close-icon"
       />
-    </div>
+    </button>
   );
 };
