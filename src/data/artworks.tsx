@@ -442,6 +442,14 @@ const artworks: TArtwork[] = [
     path: "/gallery/2024/fish/i-can-fly",
   },
   {
+    _id: "whale",
+    name: "whale",
+    year: "2024",
+    project: "fish",
+    url: require("../assets/artworks/2024/fish/whale.JPG"),
+    path: "/gallery/2024/fish/whale",
+  },
+  {
     _id: "pigeon",
     name: "pigeon",
     year: "2024",
@@ -450,12 +458,20 @@ const artworks: TArtwork[] = [
     path: "/gallery/2024/birds/pigeon",
   },
   {
+    _id: "chiquita-ii",
+    name: "chiquita-ii",
+    year: "2024",
+    project: "birds",
+    url: require("../assets/artworks/2024/birds/chiquita-ii.JPG"),
+    path: "/gallery/2017/birds/chiquita-ii",
+  },
+  {
     _id: "quack",
     name: "quack",
     year: "2024",
     project: "birds",
     url: require("../assets/artworks/2024/birds/quack.JPG"),
-    path: "/gallery/2017/catasian/quack",
+    path: "/gallery/2017/birds/quack",
   },
   {
     _id: "lotos",
@@ -467,10 +483,10 @@ const artworks: TArtwork[] = [
   },
   {
     _id: "bamboo-forest",
-    name: "bamboo-forest",
+    name: "bamboo",
     year: "2024",
     project: "catyoga",
-    url: require("../assets/artworks/2024/catyoga/bamboo-forest.JPG"),
+    url: require("../assets/artworks/2024/catyoga/bamboo.JPG"),
     path: "/gallery/2024/catyoga/bamboo-forest",
   },
   {
@@ -498,6 +514,14 @@ const artworks: TArtwork[] = [
     path: "/gallery/2024/catyoga/balanced-ii",
   },
   {
+    _id: "bamboo-forest",
+    name: "bamboo-forest",
+    year: "2024",
+    project: "catyoga",
+    url: require("../assets/artworks/2024/catyoga/bamboo-forest.JPG"),
+    path: "/gallery/2024/catyoga/bamboo-forest",
+  },
+  {
     _id: "selfie",
     name: "selfie",
     year: "2024",
@@ -520,6 +544,14 @@ const artworks: TArtwork[] = [
     project: "catasianworld",
     url: require("../assets/artworks/2024/catasianworld/ironed.JPG"),
     path: "/gallery/2024/catasianworld/ironed",
+  },
+  {
+    _id: "rainbow-flower",
+    name: "rainbow-flower",
+    year: "2024",
+    project: "catasianworld",
+    url: require("../assets/artworks/2024/catasianworld/rainbow-flower.JPG"),
+    path: "/gallery/2024/catasianworld/rainbow-flower",
   },
 ];
 

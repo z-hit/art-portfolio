@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./Contact.module.css";
 import clsx from "clsx";
 
 const Contact = () => {
+  const location = useLocation();
+
   return (
     <div className={styles.section}>
       <div className={clsx(styles.text_box, styles.right)}>
@@ -27,9 +29,13 @@ const Contact = () => {
           </Link>
         </div>
         <div className={styles.social_link_box}>
-          <h4 className={styles.social_title}>WeChat ID: </h4>
-          <Link to={""} className={styles.link}>
-            jarotea
+          <h4 className={styles.social_title}>WeChat QR: </h4>
+          <Link
+            to={"/contact/wechat"}
+            className={styles.link}
+            state={{ background: location }}
+          >
+            @jarotea
           </Link>
         </div>
       </div>
