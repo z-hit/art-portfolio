@@ -10,6 +10,11 @@
   height: auto;
   padding: 0;
   opacity: 0.3;
+
+  @media (max-width: 375px) {
+    width: 30px;
+    height: auto;
+  }
 }
 
 .arrow:hover {
@@ -23,4 +28,9 @@
   padding: 0;
   opacity: 0;
   cursor: default;
+
+  @media (max-width: 375px) {
+    width: 30px;
+    height: auto;
+  }
 }

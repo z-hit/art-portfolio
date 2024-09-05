@@ -4,4 +4,8 @@
   font-size: 19px;
   padding-block: 50px;
   text-transform: uppercase;
+
+  @media (max-width: 375px) {
+    font-size: 12px;
+  }
 }

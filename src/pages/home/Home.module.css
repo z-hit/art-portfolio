@@ -5,6 +5,10 @@
   margin-block-start: 50px;
   height: 65vh;
   width: 80vw;
+
+  @media (max-width: 375px) {
+    height: auto;
+  }
 }
 
 .image {

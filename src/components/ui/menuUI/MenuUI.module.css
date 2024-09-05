@@ -10,6 +10,10 @@
   align-items: center;
   gap: 40px;
   list-style-type: none;
+
+  @media (max-width: 375px) {
+    gap: 20px;
+  }
 }
 
 .link {
@@ -19,6 +23,10 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+
+  @media (max-width: 375px) {
+    font-size: 14px;
+  }
 }
 
 .link:hover {
