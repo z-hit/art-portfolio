@@ -6,6 +6,12 @@
   margin-block: 150px;
   gap: 150px;
   height: 90%;
+
+  @media (max-width: 650px) {
+    width: 100%;
+    gap: 50px;
+    margin-block: 50px;
+  }
 }
 
 .text_box {
@@ -20,6 +26,10 @@
   font-weight: bold;
   text-transform: uppercase;
   margin-block-end: 10px;
+
+  @media (max-width: 650px) {
+    font-size: 19px;
+  }
 }
 
 .social_link_box {
@@ -34,17 +44,29 @@
   font-weight: bold;
   font-size: 27px;
   margin-block: 10px;
+
+  @media (max-width: 650px) {
+    font-size: 19px;
+  }
 }
 
 .text {
   font-size: 27px;
   margin-block: 10px;
+
+  @media (max-width: 650px) {
+    font-size: 16px;
+  }
 }
 
 .link {
   text-decoration: none;
   font-size: 25px;
   color: hsl(0, 0%, 30%);
+
+  @media (max-width: 650px) {
+    font-size: 16px;
+  }
 }
 
 .link:hover {

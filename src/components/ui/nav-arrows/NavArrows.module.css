@@ -11,7 +11,7 @@
   padding: 0;
   opacity: 0.3;
 
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     width: 30px;
     height: auto;
   }
@@ -29,7 +29,7 @@
   opacity: 0;
   cursor: default;
 
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     width: 30px;
     height: auto;
   }

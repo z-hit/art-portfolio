@@ -7,7 +7,7 @@
   margin-block: 80px 50px;
   text-decoration: none;
 
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     gap: 15px;
   }
 }
@@ -16,7 +16,7 @@
   width: 60px;
   height: auto;
 
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     width: 30px;
   }
 }
@@ -30,7 +30,7 @@
   text-decoration: none;
   letter-spacing: 0.5em;
 
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     font-size: 16px;
   }
 }
