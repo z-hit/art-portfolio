@@ -18,13 +18,18 @@ const Contact = () => {
           <Link
             to={"https://instagram.com/zhenya_hitrova"}
             className={styles.link}
+            target="_blank"
           >
             @zhenya_hitrova
           </Link>
         </div>
         <div className={styles.social_link_box}>
           <h4 className={styles.social_title}>VK: </h4>
-          <Link to={"https://vk.ru/catasian"} className={styles.link}>
+          <Link
+            to={"https://vk.ru/catasian"}
+            className={styles.link}
+            target="_blank"
+          >
             Художник Женя Хитрова
           </Link>
         </div>
