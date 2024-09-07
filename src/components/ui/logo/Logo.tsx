@@ -7,7 +7,7 @@ const Logo = () => {
       <img
         className={styles.logo}
         src={require("../../../assets/images/logo.jpg")}
-        alt="artins logo aignature"
+        alt="artist logo signature"
         width="100"
         height="auto"
       />
