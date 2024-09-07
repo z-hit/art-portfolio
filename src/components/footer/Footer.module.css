@@ -5,6 +5,7 @@
   padding-block: 50px;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+  text-align: center;
 
   @media (max-width: 650px) {
     font-size: 12px;
