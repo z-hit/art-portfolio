@@ -16,11 +16,11 @@ export const Modal = memo(({ onClose, children }: TModalProps) => {
     };
 
     document.addEventListener("keydown", handleEsc);
-    document.body.style.overflow = "hidden";
+    document.body.style.overflowY = "hidden";
 
     return () => {
       document.removeEventListener("keydown", handleEsc);
-      document.body.style.overflow = "scroll";
+      document.body.style.overflowY = "scroll";
     };
   }, [onClose]);
 
