@@ -3,8 +3,8 @@ import styles from "./ArtworkPreview.module.css";
 import { NavArrowPrev } from "../ui/nav-arrows/NavArrowPrev";
 import { NavArrowNext } from "../ui/nav-arrows/NavArrowNext";
 import { useCallback, useEffect, useState } from "react";
-import { ArtworkUI } from "../artwork/ArtworkUI";
 import artworks from "../../data/artworks";
+import { ArtworkUI } from "../ui/artwork/ArtworkUI";
 
 export const ArtworkPreview = () => {
   const { artwork } = useParams();

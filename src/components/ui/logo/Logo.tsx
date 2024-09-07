@@ -6,7 +6,7 @@ const Logo = () => {
     <Link to={"/"} className={styles.logo_box}>
       <img
         className={styles.logo}
-        src={require("../../assets/images/logo.jpg")}
+        src={require("../../../assets/images/logo.jpg")}
         alt="artins logo aignature"
         width="100"
         height="auto"

@@ -5,7 +5,7 @@ export const WechatQR = () => {
     <div className={styles.qr_box}>
       <img
         className={styles.qr_picture}
-        src={require("../../assets/images/wechatqr.JPG")}
+        src={require("../../../assets/images/wechatqr.JPG")}
         alt="WeChat QR code to scan and follow artist"
       />
     </div>

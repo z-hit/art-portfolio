@@ -1,4 +1,4 @@
-import { TArtwork } from "../../utils/types";
+import { TArtwork } from "../../../utils/types";
 import styles from "./ArtworkUI.module.css";
 
 type TArtworkProps = {

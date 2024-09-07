@@ -19,7 +19,7 @@ import { GalleryProject } from "../../pages/gallery/GalleryProject";
 import { GalleryYear } from "../../pages/gallery/GalleryYear";
 import { ArtworkPreview } from "../artwork-preview/ArtworkPreview";
 import { Modal } from "../modal/Modal";
-import { WechatQR } from "../wechat/WechatQR";
+import { WechatQR } from "../ui/wechat/WechatQR";
 
 function App() {
   const location = useLocation();
