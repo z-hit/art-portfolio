@@ -1,48 +1,44 @@
 import { Link, useLocation } from "react-router-dom";
 import styles from "./Contact.module.css";
-import clsx from "clsx";
 
 const Contact = () => {
   const location = useLocation();
 
   return (
     <div className={styles.section}>
-      <div className={clsx(styles.text_box, styles.right)}>
-        <h3 className={styles.section_title}>Email</h3>
+      <div className={styles.link_box}>
+        <h3 className={styles.title}>Email </h3>
         <p className={styles.text}>hitrovazhenya@gmail.com</p>
       </div>
-      <div className={styles.text_box}>
-        <h3 className={styles.section_title}>Social media</h3>
-        <div className={styles.social_link_box}>
-          <h4 className={styles.social_title}>Instagram: </h4>
-          <Link
-            to={"https://instagram.com/zhenya_hitrova"}
-            className={styles.link}
-            target="_blank"
-          >
-            @zhenya_hitrova
-          </Link>
-        </div>
-        <div className={styles.social_link_box}>
-          <h4 className={styles.social_title}>VK: </h4>
-          <Link
-            to={"https://vk.ru/catasian"}
-            className={styles.link}
-            target="_blank"
-          >
-            Художник Женя Хитрова
-          </Link>
-        </div>
-        <div className={styles.social_link_box}>
-          <h4 className={styles.social_title}>WeChat QR: </h4>
-          <Link
-            to={"/contact/wechat"}
-            className={styles.link}
-            state={{ background: location }}
-          >
-            @jarotea
-          </Link>
-        </div>
+      <div className={styles.link_box}>
+        <h3 className={styles.title}>Instagram </h3>
+        <Link
+          to={"https://instagram.com/zhenya_hitrova"}
+          className={styles.link}
+          target="_blank"
+        >
+          @zhenya_hitrova
+        </Link>
+      </div>
+      <div className={styles.link_box}>
+        <h3 className={styles.title}>VK </h3>
+        <Link
+          to={"https://vk.ru/catasian"}
+          className={styles.link}
+          target="_blank"
+        >
+          Художник Женя Хитрова
+        </Link>
+      </div>
+      <div className={styles.link_box}>
+        <h3 className={styles.title}>WeChat </h3>
+        <Link
+          to={"/contact/wechat"}
+          className={styles.link}
+          state={{ background: location }}
+        >
+          @jarotea
+        </Link>
       </div>
     </div>
   );
