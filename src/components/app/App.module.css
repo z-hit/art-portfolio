@@ -6,6 +6,6 @@
   margin: auto;
   width: 80vw;
   min-height: 100vh;
-  color: hsl(0, 0%, 60%);
+  color: var(--main-text-color);
   font-family: Arial, Helvetica, sans-serif;
 }

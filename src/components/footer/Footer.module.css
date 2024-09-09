@@ -1,8 +1,8 @@
 .footer {
-  color: hsl(0, 0%, 60%);
+  color: var(--main-text-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
-  padding-block: 50px;
+  padding-block: var(--basic-padding);
   text-transform: uppercase;
   letter-spacing: 0.5em;
   text-align: center;

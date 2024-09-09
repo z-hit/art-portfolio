@@ -53,5 +53,5 @@
 }
 
 .link:hover {
-  color: hsl(0, 0%, 60%);
+  color: var(--main-text-color);
 }

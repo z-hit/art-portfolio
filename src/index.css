@@ -15,3 +15,9 @@ body {
   color: hsl(0, 0%, 30%);
   font-size: 17px;
 }
+
+:root {
+  --basic-padding: 50px;
+  --main-text-color: hsl(0, 0%, 60%);
+  --active-text-color: hsl(0, 0%, 30%);
+}
