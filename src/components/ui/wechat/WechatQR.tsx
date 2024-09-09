@@ -1,6 +1,6 @@
 import styles from "./WechatQR.module.css";
 
-export const WechatQR = () => {
+const WechatQR = () => {
   return (
     <div className={styles.qr_box}>
       <img
@@ -13,3 +13,5 @@ export const WechatQR = () => {
     </div>
   );
 };
+
+export default WechatQR;

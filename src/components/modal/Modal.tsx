@@ -9,7 +9,7 @@ export type TModalProps = {
 
 const modalRoot = document.getElementById("modal");
 
-export const Modal = memo(({ onClose, children }: TModalProps) => {
+const Modal = memo(({ onClose, children }: TModalProps) => {
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       e.key === "Escape" && onClose();
@@ -29,3 +29,5 @@ export const Modal = memo(({ onClose, children }: TModalProps) => {
     modalRoot as HTMLDivElement
   );
 });
+
+export default Modal;

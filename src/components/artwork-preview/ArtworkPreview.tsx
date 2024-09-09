@@ -6,7 +6,7 @@ import { useCallback, useEffect, useState } from "react";
 import artworks from "../../data/artworks";
 import { ArtworkUI } from "../ui/artwork/ArtworkUI";
 
-export const ArtworkPreview = () => {
+const ArtworkPreview = () => {
   const { artwork } = useParams();
   const [artworkPreview, setArtworkPreview] = useState(
     artworks.filter((art) => art._id === artwork)[0]
@@ -77,3 +77,5 @@ export const ArtworkPreview = () => {
     </div>
   );
 };
+
+export default ArtworkPreview;

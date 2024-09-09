@@ -14,12 +14,12 @@ import Layout from "../layout/Layout";
 import Bio from "../../pages/bio/Bio";
 import Cv from "../../pages/cv/Cv";
 import styles from "./App.module.css";
-import { Statement } from "../../pages/statement/Statement";
-import { GalleryProject } from "../../pages/gallery/GalleryProject";
-import { GalleryYear } from "../../pages/gallery/GalleryYear";
-import { ArtworkPreview } from "../artwork-preview/ArtworkPreview";
-import { Modal } from "../modal/Modal";
-import { WechatQR } from "../ui/wechat/WechatQR";
+import Statement from "../../pages/statement/Statement";
+import GalleryProject from "../../pages/gallery/GalleryProject";
+import GalleryYear from "../../pages/gallery/GalleryYear";
+import ArtworkPreview from "../artwork-preview/ArtworkPreview";
+import Modal from "../modal/Modal";
+import WechatQR from "../ui/wechat/WechatQR";
 
 function App() {
   const location = useLocation();

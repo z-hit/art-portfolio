@@ -5,7 +5,7 @@ import { nanoid } from "nanoid";
 import { TArtwork } from "../../utils/types";
 import artworks from "../../data/artworks";
 
-export const GalleryProject = () => {
+const GalleryProject = () => {
   const location = useLocation();
   const { project } = useParams();
 
@@ -27,3 +27,5 @@ export const GalleryProject = () => {
     </div>
   );
 };
+
+export default GalleryProject;

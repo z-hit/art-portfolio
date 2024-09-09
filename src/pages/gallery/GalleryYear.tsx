@@ -4,7 +4,7 @@ import styles from "./Portfolio.module.css";
 import { TMenuLink, TProject } from "../../utils/types";
 import { projects } from "../../data/projects";
 
-export const GalleryYear = () => {
+const GalleryYear = () => {
   const { year } = useParams();
 
   const projectsByYear: TProject[] = projects.filter(
@@ -25,3 +25,5 @@ export const GalleryYear = () => {
     </>
   );
 };
+
+export default GalleryYear;

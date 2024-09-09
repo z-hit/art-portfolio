@@ -1,6 +1,6 @@
 import styles from "./Statement.module.css";
 
-export const Statement = () => {
+const Statement = () => {
   return (
     <div className={styles.section}>
       <img
@@ -35,3 +35,5 @@ export const Statement = () => {
     </div>
   );
 };
+
+export default Statement;
