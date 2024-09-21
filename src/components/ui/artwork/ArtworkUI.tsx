@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { TArtwork } from "../../../utils/types";
 import styles from "./ArtworkUI.module.css";
 

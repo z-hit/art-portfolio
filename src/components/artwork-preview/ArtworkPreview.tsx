@@ -38,7 +38,9 @@ const ArtworkPreview = () => {
         showNextArtwork();
     };
 
-    document.addEventListener("keydown", handleArrowKeyDown);
+    const preventEvent = (event: any) => {
+      event.preventDefault();
+    };
 
     document.addEventListener("keydown", handleArrowKeyDown);
 
@@ -49,8 +51,13 @@ const ArtworkPreview = () => {
     if (artworkPreviewIndex === artworkProjectLength - 1) {
       setVisibleNavNext(false);
     }
+
+    document.addEventListener("contextmenu", preventEvent);
+
     return () => {
       document.removeEventListener("keydown", handleArrowKeyDown);
+      document.removeEventListener("contextmenu", preventEvent);
+
       setVisibleNavPrev(true);
       setVisibleNavNext(true);
     };
