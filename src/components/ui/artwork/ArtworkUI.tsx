@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { TArtwork } from "../../../utils/types";
 import styles from "./ArtworkUI.module.css";
 
@@ -10,6 +9,7 @@ export const ArtworkUI = ({ artworkData }: TArtworkProps) => {
   return (
     <div className={styles.image_box}>
       <img
+        draggable={false}
         className={styles.image}
         src={artworkData.url}
         alt={artworkData.name}

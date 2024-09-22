@@ -1,9 +1,27 @@
+import { useEffect } from "react";
 import styles from "./Statement.module.css";
 
 const Statement = () => {
+  useEffect(() => {
+    const statementPhoto = document.getElementById("statement-photo");
+    const preventEvent = (event: any) => {
+      event.preventDefault();
+    };
+
+    statementPhoto &&
+      statementPhoto.addEventListener("contextmenu", preventEvent);
+
+    return () => {
+      statementPhoto &&
+        statementPhoto.removeEventListener("contextmenu", preventEvent);
+    };
+  }, []);
+
   return (
     <div className={styles.section}>
       <img
+        id="statement-photo"
+        draggable={false}
         src={require("../../assets/images/statement-cover.JPG")}
         className={styles.image}
         alt="artist portrait"

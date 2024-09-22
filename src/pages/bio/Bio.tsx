@@ -1,9 +1,26 @@
+import { useEffect } from "react";
 import styles from "./Bio.module.css";
 
 const Bio = () => {
+  useEffect(() => {
+    const artistPhoto = document.getElementById("artist-photo");
+    const preventEvent = (event: any) => {
+      event.preventDefault();
+    };
+
+    artistPhoto && artistPhoto.addEventListener("contextmenu", preventEvent);
+
+    return () => {
+      artistPhoto &&
+        artistPhoto.removeEventListener("contextmenu", preventEvent);
+    };
+  }, []);
+
   return (
     <div className={styles.section}>
       <img
+        id="artist-photo"
+        draggable={false}
         src={require("../../assets/images/artist-portrait.JPG")}
         className={styles.image}
         alt="artist portrait"
