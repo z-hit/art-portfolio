@@ -47,7 +47,7 @@ const Bio = () => {
         </p>
         <p className={styles.text}>
           In 2019, I moved back to my hometown on the Pacific coast of Russia
-          where I continue living and developing different ideas with a Catasian
+          where I continue living and developing different ideas with Catasian
           face.
         </p>
         <p className={styles.text}>

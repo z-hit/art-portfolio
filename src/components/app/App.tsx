@@ -53,7 +53,7 @@ function App() {
             />
             <Route
               path="/gallery/2024"
-              element={<Navigate to="/gallery/2024/fish" replace />}
+              element={<Navigate to="/gallery/2024/fish-and-birds" replace />}
             />
           </Route>
           <Route path="/about" element={<About />}>

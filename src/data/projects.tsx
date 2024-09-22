@@ -42,18 +42,11 @@ export const projects: TProject[] = [
     path: "/gallery/2019-2020/best2019-2020",
   },
   {
-    id: "fish",
-    name: "fish",
+    id: "fish-and-birds",
+    name: "fish & birds",
     year: "2024",
-    artworks: getProjectArtworks("fish"),
-    path: "/gallery/2024/fish",
-  },
-  {
-    id: "birds",
-    name: "birds",
-    year: "2024",
-    artworks: getProjectArtworks("birds"),
-    path: "/gallery/2024/birds",
+    artworks: getProjectArtworks("fish-and-birds"),
+    path: "/gallery/2024/fish-and-birds",
   },
 
   {
