@@ -1,6 +1,6 @@
 import { TArtwork } from "../utils/types";
 
-const artworks: TArtwork[] = [
+export const artworks: TArtwork[] = [
   {
     _id: "mermaid",
     name: "mermaid",
@@ -430,40 +430,40 @@ const artworks: TArtwork[] = [
     name: "can-it-all",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish/can-it-all.JPG"),
-    path: "/gallery/2024/fish/can-it-all",
+    url: require("../assets/artworks/2024/fish-and-birds/can-it-all.JPG"),
+    path: "/gallery/2024/fish-and-birds/can-it-all",
   },
   {
     _id: "pigeon",
     name: "pigeon",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/birds/pigeon.JPG"),
-    path: "/gallery/2024/birds/pigeon",
+    url: require("../assets/artworks/2024/fish-and-birds/pigeon.JPG"),
+    path: "/gallery/2024/fish-and-birds/pigeon",
   },
   {
     _id: "i-can-fly",
     name: "i-can-fly",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish/i-can-fly.JPG"),
-    path: "/gallery/2024/fish/i-can-fly",
+    url: require("../assets/artworks/2024/fish-and-birds/i-can-fly.JPG"),
+    path: "/gallery/2024/fish-and-birds/i-can-fly",
   },
   {
     _id: "quack",
     name: "quack",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/birds/quack.JPG"),
-    path: "/gallery/2017/birds/quack",
+    url: require("../assets/artworks/2024/fish-and-birds/quack.JPG"),
+    path: "/gallery/2017/fish-and-birds/quack",
   },
   {
     _id: "whale",
     name: "whale",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish/whale.JPG"),
-    path: "/gallery/2024/fish/whale",
+    url: require("../assets/artworks/2024/fish-and-birds/whale.JPG"),
+    path: "/gallery/2024/fish-and-birds/whale",
   },
 
   {
@@ -471,7 +471,7 @@ const artworks: TArtwork[] = [
     name: "chiquita-ii",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/birds/chiquita-ii.JPG"),
+    url: require("../assets/artworks/2024/fish-and-birds/chiquita-ii.JPG"),
     path: "/gallery/2017/birds/chiquita-ii",
   },
 
@@ -527,34 +527,32 @@ const artworks: TArtwork[] = [
     _id: "selfie",
     name: "selfie",
     year: "2024",
-    project: "catasianworld",
+    project: "catasian-world",
     url: require("../assets/artworks/2024/catasianworld/selfie.JPG"),
-    path: "/gallery/2024/catasianworld/selfie",
+    path: "/gallery/2024/catasian-world/selfie",
   },
   {
     _id: "black-ghost",
     name: "black-ghost",
     year: "2024",
-    project: "catasianworld",
+    project: "catasian-world",
     url: require("../assets/artworks/2024/catasianworld/black-ghost.JPG"),
-    path: "/gallery/2024/catasianworld/black-ghost",
+    path: "/gallery/2024/catasian-world/black-ghost",
   },
   {
     _id: "ironed",
     name: "ironed",
     year: "2024",
-    project: "catasianworld",
+    project: "catasian-world",
     url: require("../assets/artworks/2024/catasianworld/ironed.JPG"),
-    path: "/gallery/2024/catasianworld/ironed",
+    path: "/gallery/2024/catasian-world/ironed",
   },
   {
     _id: "rainbow-flower",
     name: "rainbow-flower",
     year: "2024",
-    project: "catasianworld",
+    project: "catasian-world",
     url: require("../assets/artworks/2024/catasianworld/rainbow-flower.JPG"),
-    path: "/gallery/2024/catasianworld/rainbow-flower",
+    path: "/gallery/2024/catasian-world/rainbow-flower",
   },
 ];
-
-export default artworks;

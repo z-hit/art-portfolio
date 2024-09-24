@@ -3,7 +3,7 @@ import CardUI from "../../components/ui/cardUI/CardUI";
 import styles from "./Portfolio.module.css";
 import { nanoid } from "nanoid";
 import { TArtwork } from "../../utils/types";
-import artworks from "../../data/artworks";
+import { artworks } from "../../data/artworks";
 import { Helmet } from "react-helmet";
 
 const GalleryProject = () => {
@@ -15,7 +15,10 @@ const GalleryProject = () => {
     : [];
 
   const titleSEO = project
-    ? project.toUpperCase() + " | Artist Zhenya Hitrova"
+    ? project.toUpperCase() +
+      " " +
+      projectArtworks[0].year +
+      " | Artist Zhenya Hitrova"
     : "Gallery | Artist Zhenya Hitrova";
 
   return (

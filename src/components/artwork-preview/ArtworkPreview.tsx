@@ -3,9 +3,9 @@ import styles from "./ArtworkPreview.module.css";
 import { NavArrowPrev } from "../ui/nav-arrows/NavArrowPrev";
 import { NavArrowNext } from "../ui/nav-arrows/NavArrowNext";
 import { useCallback, useEffect, useState } from "react";
-import artworks from "../../data/artworks";
 import { ArtworkUI } from "../ui/artwork/ArtworkUI";
 import { Helmet } from "react-helmet";
+import { artworks } from "../../data/artworks";
 
 const ArtworkPreview = () => {
   const { artwork } = useParams();
