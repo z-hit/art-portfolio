@@ -4,6 +4,7 @@ import styles from "./Portfolio.module.css";
 import { nanoid } from "nanoid";
 import { TArtwork } from "../../utils/types";
 import artworks from "../../data/artworks";
+import { Helmet } from "react-helmet";
 
 const GalleryProject = () => {
   const location = useLocation();
@@ -13,8 +14,19 @@ const GalleryProject = () => {
     ? artworks.filter((artwork) => artwork.project === project)
     : [];
 
+  const titleSEO = project
+    ? project.toUpperCase() + " | Artist Zhenya Hitrova"
+    : "Gallery | Artist Zhenya Hitrova";
+
   return (
     <div className={styles.wrapper}>
+      <Helmet>
+        <title>{titleSEO}</title>
+        <meta
+          name="description"
+          content={`${titleSEO} - art project by contemporary Russian artist Zhenya Hitrova`}
+        />
+      </Helmet>
       {projectArtworks.map((artwork) => (
         <Link
           to={`/gallery/${artwork.year}/${artwork.project}/${artwork._id}`}

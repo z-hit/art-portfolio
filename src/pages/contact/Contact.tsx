@@ -1,11 +1,19 @@
 import { Link, useLocation } from "react-router-dom";
 import styles from "./Contact.module.css";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const location = useLocation();
 
   return (
     <div className={styles.section}>
+      <Helmet>
+        <title>Contact | Artist Zhenya Hitrova</title>
+        <meta
+          name="description"
+          content="Contact the artist Zhenya Hitrova, contemporary Russian art. Email, Instagram, VK, WeChat links"
+        />
+      </Helmet>
       <div className={styles.link_box}>
         <h3 className={styles.title}>Email </h3>
         <p className={styles.text}>hitrovazhenya@gmail.com</p>

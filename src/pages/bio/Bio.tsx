@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import styles from "./Bio.module.css";
+import { Helmet } from "react-helmet";
 
 const Bio = () => {
   useEffect(() => {
@@ -18,6 +19,13 @@ const Bio = () => {
 
   return (
     <div className={styles.section}>
+      <Helmet>
+        <title>Bio | Artist Zhenya Hitrova</title>
+        <meta
+          name="description"
+          content="Short biography of the artist Zhenya Hitrova, contemporary Russian art."
+        />
+      </Helmet>
       <img
         id="artist-photo"
         draggable={false}

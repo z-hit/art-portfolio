@@ -43,12 +43,12 @@ function App() {
             />
             <Route
               path="/gallery/2018"
-              element={<Navigate to="/gallery/2018/best2018" replace />}
+              element={<Navigate to="/gallery/2018/best-2018" replace />}
             />
             <Route
               path="/gallery/2019-2020"
               element={
-                <Navigate to="/gallery/2019-2020/best2019-2020" replace />
+                <Navigate to="/gallery/2019-2020/best-2019-2020" replace />
               }
             />
             <Route

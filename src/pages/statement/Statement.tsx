@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import styles from "./Statement.module.css";
+import { Helmet } from "react-helmet";
 
 const Statement = () => {
   useEffect(() => {
@@ -19,6 +20,13 @@ const Statement = () => {
 
   return (
     <div className={styles.section}>
+      <Helmet>
+        <title>Artist Statement | Artist Zhenya Hitrova</title>
+        <meta
+          name="description"
+          content="Artist statement of the artist Zhenya Hitrova, contemporary Russian art."
+        />
+      </Helmet>
       <img
         id="statement-photo"
         draggable={false}
