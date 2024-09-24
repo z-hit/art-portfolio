@@ -5,6 +5,7 @@ import { nanoid } from "nanoid";
 import { TArtwork } from "../../utils/types";
 import { artworks } from "../../data/artworks";
 import { Helmet } from "react-helmet";
+import { projects } from "../../data/projects";
 
 const GalleryProject = () => {
   const location = useLocation();
@@ -15,9 +16,8 @@ const GalleryProject = () => {
     : [];
 
   const titleSEO = project
-    ? project.toUpperCase() +
+    ? projects.filter((proj) => proj.id === project)[0].name.toUpperCase() +
       " " +
-      projectArtworks[0].year +
       " | Artist Zhenya Hitrova"
     : "Gallery | Artist Zhenya Hitrova";
 
