@@ -5,6 +5,7 @@ import { NavArrowNext } from "../ui/nav-arrows/NavArrowNext";
 import { useCallback, useEffect, useState } from "react";
 import artworks from "../../data/artworks";
 import { ArtworkUI } from "../ui/artwork/ArtworkUI";
+import { Helmet } from "react-helmet";
 
 const ArtworkPreview = () => {
   const { artwork } = useParams();
@@ -68,8 +69,19 @@ const ArtworkPreview = () => {
     showPrevArtwork,
   ]);
 
+  const titleSEO = artworkPreview
+    ? artworkPreview.name.toUpperCase() + " | Artist Zhenya Hitrova"
+    : "Artwork by artist Zhenya Hitrova";
+
   return (
     <div className={styles.preview_box}>
+      <Helmet>
+        <title>{titleSEO}</title>
+        <meta
+          name="description"
+          content={`${titleSEO} acrylic artwork painting by Russian contemporary artist Zhenya Hitrova. Weird, colorful, symbolic, whimsical.`}
+        />
+      </Helmet>
       <NavArrowPrev
         id="arrow_prev"
         onClick={showPrevArtwork}
