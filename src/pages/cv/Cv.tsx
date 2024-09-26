@@ -1,16 +1,11 @@
+import SEO from "../../components/seo/seo";
+import { seoCV } from "../../components/seo/seoData";
 import styles from "./Cv.module.css";
-import { Helmet } from "react-helmet";
 
 const Cv = () => {
   return (
     <div className={styles.section}>
-      <Helmet>
-        <title>CV | Artist Zhenya Hitrova</title>
-        <meta
-          name="description"
-          content="CV information of the artist Zhenya Hitrova, contemporary Russian art."
-        />
-      </Helmet>
+      <SEO title={seoCV.title} description={seoCV.description} />
       <div className={styles.text_box}>
         <h3 className={styles.section_title}>general</h3>
         <p className={styles.text}>Zhenya Hitrova, born 1987</p>

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import styles from "./Home.module.css";
-import { Helmet } from "react-helmet";
+import SEO from "../../components/seo/seo";
+import { seoHome } from "../../components/seo/seoData";
 
 const Home = () => {
   useEffect(() => {
@@ -18,13 +19,7 @@ const Home = () => {
 
   return (
     <div className={styles.image_box}>
-      <Helmet>
-        <title>Home | Artist Zhenya Hitrova</title>
-        <meta
-          name="description"
-          content="Home page of the artist Zhenya Hitrova portfolio website, contemporary Russian art. Biography, Artists statement, CV, Gallery, Contacts"
-        />
-      </Helmet>
+      <SEO title={seoHome.title} description={seoHome.description} />
       <img
         id="home-photo"
         draggable={false}
