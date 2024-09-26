@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import styles from "./Home.module.css";
 import SEO from "../../components/seo/seo";
 import { seoHome } from "../../components/seo/seoData";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   useEffect(() => {
@@ -18,7 +19,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className={styles.image_box}>
+    <Link to={"/gallery"} className={styles.image_box}>
       <SEO title={seoHome.title} description={seoHome.description} />
       <img
         id="home-photo"
@@ -29,7 +30,7 @@ const Home = () => {
         width="300"
         height="auto"
       />
-    </div>
+    </Link>
   );
 };
 
