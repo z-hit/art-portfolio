@@ -1,11 +1,11 @@
 import { Link, useLocation, useParams } from "react-router-dom";
-import CardUI from "../../components/ui/cardUI/CardUI";
 import styles from "./Portfolio.module.css";
 import { nanoid } from "nanoid";
 import { TArtwork } from "../../utils/types";
 import { artworks } from "../../data/artworks";
-import { Helmet } from "react-helmet";
 import { projects } from "../../data/projects";
+import SEO from "../../components/seo/seo";
+import CardUI from "../../components/ui/cardUI/CardUI";
 
 const GalleryProject = () => {
   const location = useLocation();
@@ -23,13 +23,10 @@ const GalleryProject = () => {
 
   return (
     <div className={styles.wrapper}>
-      <Helmet>
-        <title>{titleSEO}</title>
-        <meta
-          name="description"
-          content={`${titleSEO} - art project by contemporary Russian artist Zhenya Hitrova`}
-        />
-      </Helmet>
+      <SEO
+        title={titleSEO}
+        description={`${titleSEO} - art project by contemporary Russian artist Zhenya Hitrova`}
+      />
       {projectArtworks.map((artwork) => (
         <Link
           to={`/gallery/${artwork.year}/${artwork.project}/${artwork._id}`}

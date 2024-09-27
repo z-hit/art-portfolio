@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
 import styles from "./ArtworkPreview.module.css";
-import { NavArrowPrev } from "../ui/nav-arrows/NavArrowPrev";
-import { NavArrowNext } from "../ui/nav-arrows/NavArrowNext";
 import { useCallback, useEffect, useState } from "react";
-import { ArtworkUI } from "../ui/artwork/ArtworkUI";
-import { Helmet } from "react-helmet";
 import { artworks } from "../../data/artworks";
+import SEO from "../seo/seo";
+import { NavArrowPrev } from "../ui/nav-arrows/NavArrowPrev";
+import { ArtworkUI } from "../ui/artwork/ArtworkUI";
+import { NavArrowNext } from "../ui/nav-arrows/NavArrowNext";
 
 const ArtworkPreview = () => {
   const { artwork } = useParams();
@@ -75,13 +75,10 @@ const ArtworkPreview = () => {
 
   return (
     <div className={styles.preview_box}>
-      <Helmet>
-        <title>{titleSEO}</title>
-        <meta
-          name="description"
-          content={`${titleSEO} acrylic artwork painting by Russian contemporary artist Zhenya Hitrova. Weird, colorful, symbolic, whimsical.`}
-        />
-      </Helmet>
+      <SEO
+        title={titleSEO}
+        description={`${titleSEO} acrylic artwork painting by Russian contemporary artist Zhenya Hitrova. Weird, colorful, symbolic, whimsical.`}
+      />
       <NavArrowPrev
         id="arrow_prev"
         onClick={showPrevArtwork}

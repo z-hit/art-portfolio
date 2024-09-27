@@ -1,3 +1,8 @@
+:root {
+  --basic-padding: 50px;
+  --main-text-color: hsl(0, 0%, 60%);
+  --active-text-color: hsl(0, 0%, 30%);
+}
 
 body {
   margin: 0;
@@ -15,10 +20,4 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--active-text-color);
   font-size: 17px;
-}
-
-:root {
-  --basic-padding: 50px;
-  --main-text-color: hsl(0, 0%, 60%);
-  --active-text-color: hsl(0, 0%, 30%);
 }

@@ -5,6 +5,7 @@
 .wrapper {
   width: 100%;
   height: auto;
+  min-height: 55vh;
   margin-block: 50px;
   display: grid;
   justify-content: center;
