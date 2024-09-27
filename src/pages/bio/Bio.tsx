@@ -33,7 +33,7 @@ const Bio = () => {
 
       <div className={styles.text_box}>
         <p className={styles.text}>
-          My name is Zhenya Hitrova and I am a self-taught mixed media artist
+          My name is Zhenya Hitrova and I am a self-taught mixed media artist, polyglot,
           and animal enthusiast.
         </p>
         <p className={styles.text}>

@@ -77,7 +77,7 @@ const ArtworkPreview = () => {
     <div className={styles.preview_box}>
       <SEO
         title={titleSEO}
-        description={`${titleSEO} acrylic artwork painting by Russian contemporary artist Zhenya Hitrova. Weird, colorful, symbolic, whimsical.`}
+        description={`${titleSEO} mixed-media acrylic artwork painting by Russian contemporary artist Zhenya Hitrova. Weird, colorful, symbolic, whimsical.`}
       />
       <NavArrowPrev
         id="arrow_prev"
