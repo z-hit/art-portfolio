@@ -68,6 +68,19 @@ const Statement = () => {
           <span className={clsx(styles.text, styles.bold)}>peace of mind</span>{" "}
           no matter what.
         </p>
+        <p className={styles.text}>
+          Enjoy life's{" "}
+          <span className={clsx(styles.text, styles.bold)}>
+            little pleasures
+          </span>
+          .
+        </p>
+        <p className={styles.text}>
+          Foreign{" "}
+          <span className={clsx(styles.text, styles.bold)}>languages</span> can
+          help you open new{" "}
+          <span className={clsx(styles.text, styles.bold)}>worlds</span>.
+        </p>
       </div>
 
       {/* <div className={styles.text_box}>
