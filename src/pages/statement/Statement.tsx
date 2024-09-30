@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import styles from "./Statement.module.css";
 import SEO from "../../components/seo/seo";
 import { seoStatement } from "../../components/seo/seoData";
+import clsx from "clsx";
 
 const Statement = () => {
   useEffect(() => {
@@ -33,20 +34,40 @@ const Statement = () => {
       />
 
       <div className={styles.text_box}>
-        <p className={styles.text}>Everythign has a soul.</p>
-        <p className={styles.text}>The world is random, chaotic, and absurd.</p>
         <p className={styles.text}>
-          In the overloaded world, information and energy feel almost physical.
+          The world is{" "}
+          <span className={clsx(styles.text, styles.bold)}>random</span>,{" "}
+          <span className={clsx(styles.text, styles.bold)}>chaotic</span>, and{" "}
+          <span className={clsx(styles.text, styles.bold)}>absurd</span>.
         </p>
         <p className={styles.text}>
-          Even the most trivial thing can contain a bit of mystery and carry
-          some symbolism.
+          Everythign has a{" "}
+          <span className={clsx(styles.text, styles.bold)}>soul</span>.
         </p>
-
-        <p className={styles.text}>Try to keep peace of mind no matter what.</p>
-
-        <p className={styles.text}>Combining colors is so much fun.</p>
-        <p className={styles.text}>A bit of humor saves the day.</p>
+        <p className={styles.text}>
+          Objects around us are full of{" "}
+          <span className={clsx(styles.text, styles.bold)}>mystery</span> and{" "}
+          <span className={clsx(styles.text, styles.bold)}>symbolism</span>.
+        </p>
+        <p className={styles.text}>
+          Combining{" "}
+          <span className={clsx(styles.text, styles.bold)}>colors</span> is so
+          much <span className={clsx(styles.text, styles.bold)}>fun</span>.
+        </p>
+        <p className={styles.text}>
+          <span className={clsx(styles.text, styles.bold)}>Information</span>{" "}
+          and <span className={clsx(styles.text, styles.bold)}>energy</span> can
+          be felt and almost seen.
+        </p>
+        <p className={styles.text}>
+          A bit of <span className={clsx(styles.text, styles.bold)}>humor</span>{" "}
+          saves the day.
+        </p>
+        <p className={styles.text}>
+          Try to keep{" "}
+          <span className={clsx(styles.text, styles.bold)}>peace of mind</span>{" "}
+          no matter what.
+        </p>
       </div>
 
       {/* <div className={styles.text_box}>

@@ -33,8 +33,8 @@ const Bio = () => {
 
       <div className={styles.text_box}>
         <p className={styles.text}>
-          My name is Zhenya Hitrova and I am a self-taught mixed media artist, polyglot,
-          and animal enthusiast.
+          My name is Zhenya Hitrova and I am a self-taught mixed media artist,
+          polyglot, and animal enthusiast.
         </p>
         <p className={styles.text}>
           I have been passionate about art since early childhood, and started
@@ -52,12 +52,6 @@ const Bio = () => {
           In 2019, I moved back to my hometown on the Pacific coast of Russia
           where I continue living and developing different ideas with Catasian
           face.
-        </p>
-        <p className={styles.text}>
-          After experimenting with numerous art media and styles, I now focus on
-          painting with acrylics on paper with details added with colored
-          pencils. I love flat colors, simple geometry, mysterious symbols, and
-          incorporating languages in my works.
         </p>
       </div>
     </div>
