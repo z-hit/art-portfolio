@@ -25,11 +25,16 @@
 }
 
 .text {
+  line-height: 1.5;
   font-size: 25px;
 
   @media (max-width: 650px) {
     font-size: 16px;
   }
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .image {
