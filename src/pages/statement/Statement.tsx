@@ -33,6 +33,23 @@ const Statement = () => {
       />
 
       <div className={styles.text_box}>
+        <p className={styles.text}>Everythign has a soul.</p>
+        <p className={styles.text}>The world is random, chaotic, and absurd.</p>
+        <p className={styles.text}>
+          In the overloaded world, information and energy feel almost physical.
+        </p>
+        <p className={styles.text}>
+          Even the most trivial thing can contain a bit of mystery and carry
+          some symbolism.
+        </p>
+
+        <p className={styles.text}>Try to keep peace of mind no matter what.</p>
+
+        <p className={styles.text}>Combining colors is so much fun.</p>
+        <p className={styles.text}>A bit of humor saves the day.</p>
+      </div>
+
+      {/* <div className={styles.text_box}>
         <p className={styles.text}>
           I find an endless source of inspiration in the complex, overloaded,
           and absurd nature of modern reality.
@@ -41,7 +58,7 @@ const Statement = () => {
           With my puzzle-like artworks, created as if just for fun, in reality I
           am trying to help the viewers order the chaos of the surrounding
           world, present them with the aesthetic pleasure of the harmony of
-          colors and shapes, add a bit of mystery with the symbols and weird
+          colors and shapes, add a bit of mystery with symbols and weird
           creatures, and sometimes even entertain with a touch of humor or
           irony.
         </p>
@@ -52,7 +69,7 @@ const Statement = () => {
           and spiritualized Catasian faces.
         </p>
         <p className={styles.text}>Zhenya Hitrova, 2024</p>
-      </div>
+      </div> */}
     </div>
   );
 };
