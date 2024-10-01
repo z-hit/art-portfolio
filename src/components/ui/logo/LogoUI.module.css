@@ -8,6 +8,7 @@
   text-decoration: none;
 
   @media (max-width: 650px) {
+    margin-block: 50px 30px;
     gap: 15px;
     flex-direction: column;
   }
