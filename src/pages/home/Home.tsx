@@ -19,17 +19,25 @@ const Home = () => {
   }, []);
 
   return (
-    <Link to={"/gallery"} className={styles.image_box}>
+    <Link to={"/gallery"}>
       <SEO title={seoHome.title} description={seoHome.description} />
-      <img
-        id="home-photo"
-        draggable={false}
-        src={require("../../assets/images/Home-cover.JPG")}
-        className={styles.image}
-        alt="Acrylic painting of turquoise magic Catasian fish with chicken legs and angel wings by artist Zhenya Hitrova"
-        width="300"
-        height="auto"
-      />
+      <picture id="home-photo" draggable={false} className={styles.image_box}>
+        <source
+          media="(max-width:450px)"
+          srcSet={require("../../assets/images/home-cover-mobile.JPG")}
+        ></source>
+        <source
+          media="(min-width:450px)"
+          srcSet={require("../../assets/images/home-cover-desktop.JPG")}
+        ></source>
+        <img
+          src={require("../../assets/images/home-cover-desktop.JPG")}
+          className={styles.image}
+          alt="Acrylic painting of turquoise magic Catasian fish with chicken legs and angel wings by artist Zhenya Hitrova"
+          width="300"
+          height="auto"
+        />
+      </picture>
     </Link>
   );
 };
