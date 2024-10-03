@@ -27,13 +27,3 @@ export const seoContact = {
   description:
     "Contact the artist Zhenya Hitrova, contemporary Russian art. Email address, Instagram, VK, WeChat links",
 };
-
-/* 
-
-home
-bio
-statement
-cv
-contact
-
-*/
