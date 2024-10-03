@@ -1,5 +1,13 @@
+import styles from "./Footer.module.css";
+
 const Footer = () => {
-  return <h1>Footer</h1>;
+  const year = new Date().getFullYear();
+
+  return (
+    <p className={styles.footer}>
+      Copyright &copy; Zhenya Hitrova 2017 - {year}
+    </p>
+  );
 };
 
 export default Footer;

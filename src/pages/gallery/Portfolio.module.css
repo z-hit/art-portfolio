@@ -1,0 +1,15 @@
+.nav_bar {
+  border-block-start: 3px solid hsl(0, 0%, 95%);
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 544px);
+  margin-block: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 350px));
+  grid-gap: 50px;
+}

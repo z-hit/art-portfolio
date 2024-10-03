@@ -1,0 +1,36 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.arrow {
+  width: 60px;
+  height: auto;
+  padding: 0;
+  opacity: 0.3;
+
+  @media (max-width: 650px) {
+    width: 30px;
+    height: auto;
+  }
+}
+
+.arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.arrow_hidden {
+  width: 60px;
+  height: auto;
+  padding: 0;
+  opacity: 0;
+  cursor: default;
+
+  @media (max-width: 650px) {
+    width: 30px;
+    height: auto;
+  }
+}

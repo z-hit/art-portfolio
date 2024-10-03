@@ -1,0 +1,42 @@
+.logo_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-block: 80px 50px;
+  text-decoration: none;
+
+  @media (max-width: 650px) {
+    margin-block: 50px 30px;
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+
+  @media (max-width: 650px) {
+    width: 30px;
+  }
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: hsl(0, 0%, 30%);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.5em;
+
+  @media (max-width: 650px) {
+    font-size: 16px;
+  }
+}
+
+.text:hover {
+  color: var(--main-text-color);
+}

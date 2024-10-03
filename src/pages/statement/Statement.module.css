@@ -1,0 +1,46 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 440px);
+  margin-block: 50px;
+  gap: 50px;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  gap: 30px;
+  width: 65%;
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+
+  @media (max-width: 650px) {
+    font-size: 16px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.image {
+  width: 65%;
+  height: auto;
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+}
