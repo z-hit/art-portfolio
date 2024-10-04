@@ -12,10 +12,10 @@ const WechatQR = () => {
         />
       </Helmet>
       <img
-        className={styles.qr_picture}
-        src={require("../../../assets/images/wechatqr.JPG")}
+        className={styles.qr_image}
+        src={require("../../../assets/images/wechatqr.jpg")}
         alt="WeChat QR code to scan and follow artist"
-        width="100%"
+        width="auto"
         height="auto"
       />
     </div>

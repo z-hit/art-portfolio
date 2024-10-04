@@ -3,10 +3,11 @@
   align-items: center;
   justify-content: center;
   margin-block-start: 50px;
-  height: 65vh;
+  height: calc(100vh - 282px);
   width: 80vw;
 
   @media (max-width: 650px) {
+    margin-block-start: 0;
     height: auto;
   }
 }

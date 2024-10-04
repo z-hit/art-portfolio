@@ -26,7 +26,7 @@ const Statement = () => {
       <img
         id="statement-photo"
         draggable={false}
-        src={require("../../assets/images/statement-cover.JPG")}
+        src={require("../../assets/images/statement-cover.jpg")}
         className={styles.image}
         alt="artist portrait"
         width="300"

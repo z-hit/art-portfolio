@@ -4,7 +4,7 @@
   align-items: start;
   width: 65%;
   height: auto;
-  min-height: calc(100vh - 440px);
+  min-height: calc(100vh - 312px);
   margin-block: 50px;
   gap: 50px;
 
@@ -21,30 +21,18 @@
 }
 
 .section_title {
-  font-size: 27px;
+  font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
   margin-block-end: 10px;
-
-  @media (max-width: 650px) {
-    font-size: 19px;
-  }
 }
 
 .text_year {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 15px;
   margin-block-start: 10px;
-
-  @media (max-width: 650px) {
-    font-size: 19px;
-  }
 }
 
 .text {
-  font-size: 25px;
-
-  @media (max-width: 650px) {
-    font-size: 16px;
-  }
+  font-size: 15px;
 }
