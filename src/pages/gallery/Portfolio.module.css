@@ -5,11 +5,11 @@
 .wrapper {
   width: 100%;
   height: auto;
-  min-height: calc(100vh - 290px);
+  min-height: calc(100vh - 393px);
   margin-block: 50px;
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 350px));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
   grid-gap: 50px;
 }
