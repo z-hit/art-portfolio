@@ -1,11 +1,11 @@
 import { Link, useLocation, useParams } from "react-router-dom";
 import styles from "./Portfolio.module.css";
 import { nanoid } from "nanoid";
-import { TArtwork } from "../../utils/types";
 import { artworks } from "../../data/artworks";
 import { projects } from "../../data/projects";
 import SEO from "../../components/seo/seo";
 import CardUI from "../../components/ui/cardUI/CardUI";
+import { TArtwork } from "../../utils/types";
 
 const GalleryProject = () => {
   const location = useLocation();

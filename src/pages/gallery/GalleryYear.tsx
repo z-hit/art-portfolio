@@ -1,8 +1,8 @@
 import { Outlet, useParams } from "react-router-dom";
 import { MenuProjects } from "./MenuProjects";
 import styles from "./Portfolio.module.css";
-import { TMenuLink, TProject } from "../../utils/types";
 import { projects } from "../../data/projects";
+import { TMenuLink, TProject } from "../../utils/types";
 
 const GalleryYear = () => {
   const { year } = useParams();

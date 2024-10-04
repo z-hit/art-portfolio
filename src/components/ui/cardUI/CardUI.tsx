@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { TArtwork } from "../../../utils/types";
 import styles from "./Card.module.css";
+import { TArtwork } from "../../../utils/types";
 
 type TCardProps = {
   artwork: TArtwork;
