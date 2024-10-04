@@ -24,12 +24,12 @@
 
 .text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: hsl(0, 0%, 30%);
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
 
   @media (max-width: 650px) {
     font-size: 15px;
