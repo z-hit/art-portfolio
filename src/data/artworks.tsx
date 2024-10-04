@@ -6,7 +6,7 @@ export const artworks: TArtwork[] = [
     name: "mermaid",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/mermaid.JPG"),
+    url: require("../assets/artworks/2017/catasian/mermaid.jpg"),
     path: "/gallery/2017/catasian/mermaid",
   },
   {
@@ -14,7 +14,7 @@ export const artworks: TArtwork[] = [
     name: "ballet",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/ballet.JPG"),
+    url: require("../assets/artworks/2017/catasian/ballet.jpg"),
     path: "/gallery/2017/catasian/ballet",
   },
   {
@@ -22,7 +22,7 @@ export const artworks: TArtwork[] = [
     name: "birdie",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/birdie.JPG"),
+    url: require("../assets/artworks/2017/catasian/birdie.jpg"),
     path: "/gallery/2017/catasian/birdie",
   },
   {
@@ -30,7 +30,7 @@ export const artworks: TArtwork[] = [
     name: "deer",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/deer.JPG"),
+    url: require("../assets/artworks/2017/catasian/deer.jpg"),
     path: "/gallery/2017/catasian/deer",
   },
   {
@@ -38,7 +38,7 @@ export const artworks: TArtwork[] = [
     name: "dragon",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/dragon.JPG"),
+    url: require("../assets/artworks/2017/catasian/dragon.jpg"),
     path: "/gallery/2017/catasian/dragon",
   },
   {
@@ -46,7 +46,7 @@ export const artworks: TArtwork[] = [
     name: "eight",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/eight.JPG"),
+    url: require("../assets/artworks/2017/catasian/eight.jpg"),
     path: "/gallery/2017/catasian/eight",
   },
   {
@@ -54,7 +54,7 @@ export const artworks: TArtwork[] = [
     name: "octopus",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/octopus.JPG"),
+    url: require("../assets/artworks/2017/catasian/octopus.jpg"),
     path: "/gallery/2017/catasian/octopus",
   },
   {
@@ -62,7 +62,7 @@ export const artworks: TArtwork[] = [
     name: "party",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/party.JPG"),
+    url: require("../assets/artworks/2017/catasian/party.jpg"),
     path: "/gallery/2017/catasian/party",
   },
   {
@@ -70,7 +70,7 @@ export const artworks: TArtwork[] = [
     name: "snakie",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/snakie.JPG"),
+    url: require("../assets/artworks/2017/catasian/snakie.jpg"),
     path: "/gallery/2017/catasian/snakie",
   },
   {
@@ -78,7 +78,7 @@ export const artworks: TArtwork[] = [
     name: "yoga",
     year: "2017",
     project: "catasian",
-    url: require("../assets/artworks/2017/catasian/yoga.JPG"),
+    url: require("../assets/artworks/2017/catasian/yoga.jpg"),
     path: "/gallery/2017/catasian/yoga",
   },
   {
@@ -86,7 +86,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 1",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl1.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl1.jpg"),
     path: "/gallery/2017/catgirls/catgirl1",
   },
   {
@@ -94,7 +94,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 10",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl10.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl10.jpg"),
     path: "/gallery/2017/catgirls/catgirl10",
   },
   {
@@ -102,7 +102,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 11",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl11.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl11.jpg"),
     path: "/gallery/2017/catgirls/catgirl11",
   },
   {
@@ -110,7 +110,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 12",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl12.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl12.jpg"),
     path: "/gallery/2017/catgirls/catgirl12",
   },
   {
@@ -118,7 +118,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 2",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl2.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl2.jpg"),
     path: "/gallery/2017/catgirls/catgirl2",
   },
   {
@@ -126,7 +126,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 3",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl3.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl3.jpg"),
     path: "/gallery/2017/catgirls/catgirl3",
   },
   {
@@ -134,7 +134,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 4",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl4.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl4.jpg"),
     path: "/gallery/2017/catgirls/catgirl4",
   },
   {
@@ -142,7 +142,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 5",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl5.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl5.jpg"),
     path: "/gallery/2017/catgirls/catgirl5",
   },
   {
@@ -150,7 +150,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 6",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl6.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl6.jpg"),
     path: "/gallery/2017/catgirls/catgirl6",
   },
   {
@@ -158,7 +158,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 7",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl7.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl7.jpg"),
     path: "/gallery/2017/catgirls/catgirl7",
   },
   {
@@ -166,7 +166,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 8",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl8.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl8.jpg"),
     path: "/gallery/2017/catgirls/catgirl8",
   },
   {
@@ -174,7 +174,7 @@ export const artworks: TArtwork[] = [
     name: "catgirl 9",
     year: "2017",
     project: "catgirls",
-    url: require("../assets/artworks/2017/catgirls/catgirl9.JPG"),
+    url: require("../assets/artworks/2017/catgirls/catgirl9.jpg"),
     path: "/gallery/2017/catgirls/catgirl9",
   },
   {
@@ -182,7 +182,7 @@ export const artworks: TArtwork[] = [
     name: "anya",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/anya.JPG"),
+    url: require("../assets/artworks/2017/animalasian/anya.jpg"),
     path: "/gallery/2017/animalasian/anya",
   },
   {
@@ -190,7 +190,7 @@ export const artworks: TArtwork[] = [
     name: "chiquita",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/chiquita.JPG"),
+    url: require("../assets/artworks/2017/animalasian/chiquita.jpg"),
     path: "/gallery/2017/animalasian/chiquita",
   },
   {
@@ -198,7 +198,7 @@ export const artworks: TArtwork[] = [
     name: "eva",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/eva.JPG"),
+    url: require("../assets/artworks/2017/animalasian/eva.jpg"),
     path: "/gallery/2017/animalasian/eva",
   },
   {
@@ -206,7 +206,7 @@ export const artworks: TArtwork[] = [
     name: "katya",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/katya.JPG"),
+    url: require("../assets/artworks/2017/animalasian/katya.jpg"),
     path: "/gallery/2017/animalasian/katya",
   },
   {
@@ -214,7 +214,7 @@ export const artworks: TArtwork[] = [
     name: "oliver",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/oliver.JPG"),
+    url: require("../assets/artworks/2017/animalasian/oliver.jpg"),
     path: "/gallery/2017/animalasian/oliver",
   },
   {
@@ -222,7 +222,7 @@ export const artworks: TArtwork[] = [
     name: "rosa",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/rosa.JPG"),
+    url: require("../assets/artworks/2017/animalasian/rosa.jpg"),
     path: "/gallery/2017/animalasian/rosa",
   },
   {
@@ -230,7 +230,7 @@ export const artworks: TArtwork[] = [
     name: "rudy",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/rudy.JPG"),
+    url: require("../assets/artworks/2017/animalasian/rudy.jpg"),
     path: "/gallery/2017/animalasian/rudy",
   },
   {
@@ -238,7 +238,7 @@ export const artworks: TArtwork[] = [
     name: "sara",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/sara.JPG"),
+    url: require("../assets/artworks/2017/animalasian/sara.jpg"),
     path: "/gallery/2017/animalasian/sara",
   },
   {
@@ -246,7 +246,7 @@ export const artworks: TArtwork[] = [
     name: "sean",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/sean.JPG"),
+    url: require("../assets/artworks/2017/animalasian/sean.jpg"),
     path: "/gallery/2017/animalasian/sean",
   },
   {
@@ -254,7 +254,7 @@ export const artworks: TArtwork[] = [
     name: "sveta",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/sveta.JPG"),
+    url: require("../assets/artworks/2017/animalasian/sveta.jpg"),
     path: "/gallery/2017/animalasian/sveta",
   },
   {
@@ -262,7 +262,7 @@ export const artworks: TArtwork[] = [
     name: "taisia",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/taisia.JPG"),
+    url: require("../assets/artworks/2017/animalasian/taisia.jpg"),
     path: "/gallery/2017/animalasian/taisia",
   },
   {
@@ -270,7 +270,7 @@ export const artworks: TArtwork[] = [
     name: "tom",
     year: "2017",
     project: "animalasian",
-    url: require("../assets/artworks/2017/animalasian/tom.JPG"),
+    url: require("../assets/artworks/2017/animalasian/tom.jpg"),
     path: "/gallery/2017/animalasian/tom",
   },
   {
@@ -278,7 +278,7 @@ export const artworks: TArtwork[] = [
     name: "city faces more",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/city-faces-more.JPG"),
+    url: require("../assets/artworks/2018/city-faces-more.jpg"),
     path: "/gallery/2018/best-2018/city-faces-more",
   },
   {
@@ -286,7 +286,7 @@ export const artworks: TArtwork[] = [
     name: "city faces",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/city-faces.JPG"),
+    url: require("../assets/artworks/2018/city-faces.jpg"),
     path: "/gallery/2018/best-2018/city-faces",
   },
   {
@@ -294,7 +294,7 @@ export const artworks: TArtwork[] = [
     name: "faces",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/faces.JPG"),
+    url: require("../assets/artworks/2018/faces.jpg"),
     path: "/gallery/2018/best-2018/faces",
   },
   {
@@ -302,7 +302,7 @@ export const artworks: TArtwork[] = [
     name: "fishflying",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/fishflying.JPG"),
+    url: require("../assets/artworks/2018/fishflying.jpg"),
     path: "/gallery/2018/best-2018/fishflying",
   },
   {
@@ -310,7 +310,7 @@ export const artworks: TArtwork[] = [
     name: "metro life",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/metro-life.JPG"),
+    url: require("../assets/artworks/2018/metro-life.jpg"),
     path: "/gallery/2018/best-2018/metro-life",
   },
   {
@@ -318,7 +318,7 @@ export const artworks: TArtwork[] = [
     name: "prince charming",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/prince-charming.JPG"),
+    url: require("../assets/artworks/2018/prince-charming.jpg"),
     path: "/gallery/2018/best-2018/prince-charming",
   },
   {
@@ -326,7 +326,7 @@ export const artworks: TArtwork[] = [
     name: "street life",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/street-life.JPG"),
+    url: require("../assets/artworks/2018/street-life.jpg"),
     path: "/gallery/2018/best-2018/street-life",
   },
   {
@@ -334,7 +334,7 @@ export const artworks: TArtwork[] = [
     name: "three cats",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/three-cats.JPG"),
+    url: require("../assets/artworks/2018/three-cats.jpg"),
     path: "/gallery/2018/best-2018/three-cats",
   },
   {
@@ -342,7 +342,7 @@ export const artworks: TArtwork[] = [
     name: "village life",
     year: "2018",
     project: "best-2018",
-    url: require("../assets/artworks/2018/village-life.JPG"),
+    url: require("../assets/artworks/2018/village-life.jpg"),
     path: "/gallery/2018/best-2018/village-life",
   },
   {
@@ -350,7 +350,7 @@ export const artworks: TArtwork[] = [
     name: "cat pyramid",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/cat-pyramid.JPG"),
+    url: require("../assets/artworks/2019-2020/cat-pyramid.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/cat-pyramid",
   },
   {
@@ -358,7 +358,7 @@ export const artworks: TArtwork[] = [
     name: "copacabana",
     year: "2019-2020",
     project: "best 2019-2020",
-    url: require("../assets/artworks/2019-2020/copacabana.JPG"),
+    url: require("../assets/artworks/2019-2020/copacabana.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/copacabana",
   },
   {
@@ -366,7 +366,7 @@ export const artworks: TArtwork[] = [
     name: "dragonych",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/dragonych.JPG"),
+    url: require("../assets/artworks/2019-2020/dragonych.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/dragonych",
   },
   {
@@ -374,7 +374,7 @@ export const artworks: TArtwork[] = [
     name: "gold fish",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/gold-fish.JPG"),
+    url: require("../assets/artworks/2019-2020/gold-fish.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/gold-fish",
   },
   {
@@ -382,7 +382,7 @@ export const artworks: TArtwork[] = [
     name: "mr fish",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/mr-fish.JPG"),
+    url: require("../assets/artworks/2019-2020/mr-fish.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/mr-fish",
   },
   {
@@ -390,7 +390,7 @@ export const artworks: TArtwork[] = [
     name: "mrs fish",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/mrs-fish.JPG"),
+    url: require("../assets/artworks/2019-2020/mrs-fish.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/mrs-fish",
   },
   {
@@ -398,7 +398,7 @@ export const artworks: TArtwork[] = [
     name: "our future",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/our-future.JPG"),
+    url: require("../assets/artworks/2019-2020/our-future.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/our-future",
   },
   {
@@ -406,7 +406,7 @@ export const artworks: TArtwork[] = [
     name: "owlie",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/owlie.JPG"),
+    url: require("../assets/artworks/2019-2020/owlie.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/owlie",
   },
   {
@@ -414,7 +414,7 @@ export const artworks: TArtwork[] = [
     name: "real prince charming",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/real-prince-charming.JPG"),
+    url: require("../assets/artworks/2019-2020/real-prince-charming.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/real-prince-charming",
   },
   {
@@ -422,7 +422,7 @@ export const artworks: TArtwork[] = [
     name: "tokyo",
     year: "2019-2020",
     project: "best-2019-2020",
-    url: require("../assets/artworks/2019-2020/tokyo.JPG"),
+    url: require("../assets/artworks/2019-2020/tokyo.jpg"),
     path: "/gallery/2019-2020/best-2019-2020/tokyo",
   },
   {
@@ -430,7 +430,7 @@ export const artworks: TArtwork[] = [
     name: "can it all",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish-and-birds/can-it-all.JPG"),
+    url: require("../assets/artworks/2024/fish-and-birds/can-it-all.jpg"),
     path: "/gallery/2024/fish-and-birds/can-it-all",
   },
   {
@@ -438,7 +438,7 @@ export const artworks: TArtwork[] = [
     name: "pigeon",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish-and-birds/pigeon.JPG"),
+    url: require("../assets/artworks/2024/fish-and-birds/pigeon.jpg"),
     path: "/gallery/2024/fish-and-birds/pigeon",
   },
   {
@@ -446,7 +446,7 @@ export const artworks: TArtwork[] = [
     name: "i can fly",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish-and-birds/i-can-fly.JPG"),
+    url: require("../assets/artworks/2024/fish-and-birds/i-can-fly.jpg"),
     path: "/gallery/2024/fish-and-birds/i-can-fly",
   },
   {
@@ -454,7 +454,7 @@ export const artworks: TArtwork[] = [
     name: "quack",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish-and-birds/quack.JPG"),
+    url: require("../assets/artworks/2024/fish-and-birds/quack.jpg"),
     path: "/gallery/2017/fish-and-birds/quack",
   },
   {
@@ -462,7 +462,7 @@ export const artworks: TArtwork[] = [
     name: "whale",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish-and-birds/whale.JPG"),
+    url: require("../assets/artworks/2024/fish-and-birds/whale.jpg"),
     path: "/gallery/2024/fish-and-birds/whale",
   },
 
@@ -471,7 +471,7 @@ export const artworks: TArtwork[] = [
     name: "chiquita ii",
     year: "2024",
     project: "fish-and-birds",
-    url: require("../assets/artworks/2024/fish-and-birds/chiquita-ii.JPG"),
+    url: require("../assets/artworks/2024/fish-and-birds/chiquita-ii.jpg"),
     path: "/gallery/2017/birds/chiquita-ii",
   },
 
@@ -480,7 +480,7 @@ export const artworks: TArtwork[] = [
     name: "lotos",
     year: "2024",
     project: "catyoga",
-    url: require("../assets/artworks/2024/catyoga/lotos.JPG"),
+    url: require("../assets/artworks/2024/catyoga/lotos.jpg"),
     path: "/gallery/2024/catyoga/lotos",
   },
   {
@@ -488,7 +488,7 @@ export const artworks: TArtwork[] = [
     name: "bamboo",
     year: "2024",
     project: "catyoga",
-    url: require("../assets/artworks/2024/catyoga/bamboo.JPG"),
+    url: require("../assets/artworks/2024/catyoga/bamboo.jpg"),
     path: "/gallery/2024/catyoga/bamboo-forest",
   },
   {
@@ -496,7 +496,7 @@ export const artworks: TArtwork[] = [
     name: "the moon",
     year: "2024",
     project: "catyoga",
-    url: require("../assets/artworks/2024/catyoga/the-moon.JPG"),
+    url: require("../assets/artworks/2024/catyoga/the-moon.jpg"),
     path: "/gallery/2024/catyoga/the-moon",
   },
   {
@@ -504,7 +504,7 @@ export const artworks: TArtwork[] = [
     name: "balanced i",
     year: "2024",
     project: "catyoga",
-    url: require("../assets/artworks/2024/catyoga/balanced-i.JPG"),
+    url: require("../assets/artworks/2024/catyoga/balanced-i.jpg"),
     path: "/gallery/2024/catyoga/balanced-i",
   },
   {
@@ -512,7 +512,7 @@ export const artworks: TArtwork[] = [
     name: "balanced ii",
     year: "2024",
     project: "catyoga",
-    url: require("../assets/artworks/2024/catyoga/balanced-ii.JPG"),
+    url: require("../assets/artworks/2024/catyoga/balanced-ii.jpg"),
     path: "/gallery/2024/catyoga/balanced-ii",
   },
   {
@@ -520,7 +520,7 @@ export const artworks: TArtwork[] = [
     name: "bamboo forest",
     year: "2024",
     project: "catyoga",
-    url: require("../assets/artworks/2024/catyoga/bamboo-forest.JPG"),
+    url: require("../assets/artworks/2024/catyoga/bamboo-forest.jpg"),
     path: "/gallery/2024/catyoga/bamboo-forest",
   },
   {
@@ -528,7 +528,7 @@ export const artworks: TArtwork[] = [
     name: "selfie",
     year: "2024",
     project: "catasian-world",
-    url: require("../assets/artworks/2024/catasianworld/selfie.JPG"),
+    url: require("../assets/artworks/2024/catasianworld/selfie.jpg"),
     path: "/gallery/2024/catasian-world/selfie",
   },
   {
@@ -536,7 +536,7 @@ export const artworks: TArtwork[] = [
     name: "black ghost",
     year: "2024",
     project: "catasian-world",
-    url: require("../assets/artworks/2024/catasianworld/black-ghost.JPG"),
+    url: require("../assets/artworks/2024/catasianworld/black-ghost.jpg"),
     path: "/gallery/2024/catasian-world/black-ghost",
   },
   {
@@ -544,7 +544,7 @@ export const artworks: TArtwork[] = [
     name: "ironed",
     year: "2024",
     project: "catasian-world",
-    url: require("../assets/artworks/2024/catasianworld/ironed.JPG"),
+    url: require("../assets/artworks/2024/catasianworld/ironed.jpg"),
     path: "/gallery/2024/catasian-world/ironed",
   },
   {
@@ -552,7 +552,7 @@ export const artworks: TArtwork[] = [
     name: "rainbow flower",
     year: "2024",
     project: "catasian-world",
-    url: require("../assets/artworks/2024/catasianworld/rainbow-flower.JPG"),
+    url: require("../assets/artworks/2024/catasianworld/rainbow-flower.jpg"),
     path: "/gallery/2024/catasian-world/rainbow-flower",
   },
 ];

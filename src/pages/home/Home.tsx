@@ -24,14 +24,14 @@ const Home = () => {
       <picture id="home-photo" draggable={false} className={styles.image_box}>
         <source
           media="(max-width:450px)"
-          srcSet={require("../../assets/images/home-cover-mobile.JPG")}
+          srcSet={require("../../assets/images/home-cover-mobile.jpg")}
         ></source>
         <source
           media="(min-width:450px)"
-          srcSet={require("../../assets/images/home-cover-desktop.JPG")}
+          srcSet={require("../../assets/images/home-cover-desktop.jpg")}
         ></source>
         <img
-          src={require("../../assets/images/home-cover-desktop.JPG")}
+          src={require("../../assets/images/home-cover-desktop.jpg")}
           className={styles.image}
           alt="Acrylic painting of turquoise magic Catasian fish with chicken legs and angel wings by artist Zhenya Hitrova"
           width="300"

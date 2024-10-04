@@ -25,7 +25,7 @@ const Bio = () => {
       <img
         id="artist-photo"
         draggable={false}
-        src={require("../../assets/images/artist-portrait.JPG")}
+        src={require("../../assets/images/artist-portrait.jpg")}
         className={styles.image}
         alt="artist portrait"
         width="300"
