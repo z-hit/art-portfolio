@@ -6,5 +6,6 @@
 }
 
 .menu {
-  border-block-end: 3px solid hsl(0, 0%, 95%);
+  box-sizing: border-box;
+  border-block-end: 1.5px solid hsl(0, 0%, 95%);
 }
