@@ -1,44 +1,33 @@
 # ARTIST ZHENYA HITROVA
 
-Portfolio website of the Russian contemporary artist Zhenya Hitrova.
+- Сайт портфолио современной художницы Жени Хитровой
+- Ссылка на опубликованный сайт: [www.hitrova.art](https://hitrova.art/)
 
-# ABOUT
+## СОДЕРЖАНИЕ
 
-This website is the **portfolio** and the home site of the artist Zgenya Hitrova.
-It showcases her **selected artworks**, includes her artist **biography**, **CV**, and **contact** information.
+Сайт состоит из статических страниц, таких как Домашняя, Биография, Заявление, Резюме, Галерея (портфолио с выборкой картин по годам и проектам) и Контакты.
 
-## CONTENT
-
-Main sections of the site:
-
-### About
-
-**About** section includes:
-
-- **Bio** - short biography of the artist
-- **Statement** - artist statement
-- **CV** - structured information about artistic activities and achievements
-
-### Gallery
-
-**Gallery** section includes the best artworks of the artist sorted by **years** with each year containing its own **projects**
-
-### Contact
-
-**Contact** section provides the artis's **email** and **social media links**
-
-# STACK
-
-Application is created using **React Create App** and the following technologies:
+## СТЭК 
 
 - React
+- React Create App
 - TypeScript
 - HTML
 - CSS
-- npm
 - Git
 - GitHub
+- Helmet
 
-# CONTACT
+## ОПЫТ ИЗ ПРОЕКТА
+- Научилась с нуля создавать приложение на React с помощью React Create App 
+- Отработала навык создания многоуровнего роутинга с React-router-dom
+- Опробовала настройку хостинга и публикацию сайта на статическом хостинге
 
-Contact the developer: **jarotea@yandex.ru**
+## ПЛАНЫ НА БУДУЩЕЕ
+- Из-за устаревания и проблем с роутингом RCA, в данный момент ведется работа над переносом сайта на более современный фреймворк Next.js
+- Планируется создание версии сайта на русском языке
+
+## КОНТАКТЫ РАЗРАБОТЧИКА
+
+- ehitrova87@gmail.com
+- [Telegram](https://t.me/jarotea)
